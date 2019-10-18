@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="IHE.formatcode.cs" />
-
+<!-- removed text so this codeSystem will render in the IG
 	<text>
 		<status value="additional" />
 		<div xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +15,7 @@ The FormatCode provides sufficient information to allow any potential document c
 The actual list of codes is intended to be extensible.
 		</div>
 	</text>
-
+-->
 	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/IHE.formatcode.cs"/>
 	<identifier>
 		<system value="urn:ietf:rfc:3986"/>

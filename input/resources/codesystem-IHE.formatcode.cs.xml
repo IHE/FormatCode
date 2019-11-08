@@ -26,7 +26,7 @@ The actual list of codes is intended to be extensible.
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2019-10-17" />
+	<date value="2019-10-21" />
 	<publisher value="IHE"/>
 	<contact> 
 		<name value="IHE"/> 
@@ -43,7 +43,7 @@ The actual list of codes is intended to be extensible.
 		</telecom>
 	</contact>
 
-	<description value="The IHE FormatCode code set is defined to be the set of FormatCode(s) define by IHE http://wiki.ihe.net/index.php?title=IHE_Format_Codes. This code set additionally includes format codes defined by the HL7 CDA http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS. The set was listed in HITSP C80 Table 2-153 Format Code Value Set Definition. The use of the FormatCode specifies the technical format of the document. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient information to allow any potential document consumer to know if it can process and/or display by identifying a document encoding, structure and template. The actual list of codes is intended to be extensible."/>
+	<description value="The IHE FormatCode code set is defined to be the set of FormatCode(s) define by IHE http://wiki.ihe.net/index.php?title=IHE_Format_Codes. This code set additionally includes, as deprecated, format codes defined by the HL7 CDA http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS. The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient information to allow any potential document consumer to know if it can process and/or display by identifying a document encoding, structure and template. The actual list of codes is intended to be extensible."/>
 	<copyright value="Some content from IHE® Copyright © 2015 [http://www.ihe.net/Governance/#Intellectual_Property](IHE International, Inc). This content is from the IHE Technical Frameworks and Supplements, available for free download and use at http://www.ihe.net/Technical_Frameworks/"/>
 	<caseSensitive value="true"/> 
 	<content value="complete"/> 

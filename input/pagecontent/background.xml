@@ -23,6 +23,6 @@ Format codes defined by non-IHE domains should be a valid unique URN.
 </p><p>
 As of December 2019, IHE and HL7 have worked together to transition the HL7 defined codes for C-CDA into the HL7 codesystem management. Thus these codes are now indicated as deprecated in the IHE CodeSystem, as they now exist in 
 <a href="https://terminology.hl7.org/builds/current/site/CodeSystem-hl7-document-format-codes.html">HL7 CodeSystem</a> 
-<code>CodeSystem hl7-document-format-codes.html</code>
+<code>http://terminology.hl7.org/CodeSystem/hl7-document-format-codes</code>
 </p>
 </div>

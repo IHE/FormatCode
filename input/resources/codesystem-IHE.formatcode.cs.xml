@@ -353,6 +353,7 @@ The actual list of codes is intended to be extensible.
 
 		<code value="urn:hl7-org:sdwg:ccda-structuredBody:1.1"/>
 		<display value="For documents following C-CDA 1.1 constraints using a structured body."/>
+		<definition value="Now available in HL7 CodeSystem hl7-document-format-codes."/>
 		<property>
 			<code value="status"/>
 			<valueCode value="deprecated"/>
@@ -368,6 +369,7 @@ The actual list of codes is intended to be extensible.
 		</extension>
 		<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:1.1"/>
 		<display value="For documents following C-CDA 1.1 constraints using a non structured body."/>
+		<definition value="Now available in HL7 CodeSystem hl7-document-format-codes."/>
 		<property>
 			<code value="status"/>
 			<valueCode value="deprecated"/>
@@ -384,6 +386,7 @@ The actual list of codes is intended to be extensible.
 
 		<code value="urn:hl7-org:sdwg:ccda-structuredBody:2.1"/>
 		<display value="For documents following C-CDA 2.1 constraints using a structured body."/>
+		<definition value="Now available in HL7 CodeSystem hl7-document-format-codes."/>
 		<property>
 			<code value="status"/>
 			<valueCode value="deprecated"/>
@@ -399,6 +402,7 @@ The actual list of codes is intended to be extensible.
 		</extension>
 		<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:2.1"/>
 		<display value="For documents following C-CDA 2.1 constraints using a non structured body."/>
+		<definition value="Now available in HL7 CodeSystem hl7-document-format-codes."/>
 		<property>
 			<code value="status"/>
 			<valueCode value="deprecated"/>

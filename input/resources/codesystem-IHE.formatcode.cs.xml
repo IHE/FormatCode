@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="IHE.formatcode.cs" />
-<!-- removed text so this codeSystem will render in the IG
+	<!-- removed text so this codeSystem will render in the IG
 	<text>
 		<status value="additional" />
 		<div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,7 +26,7 @@ The actual list of codes is intended to be extensible.
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2019-10-21" />
+	<date value="2019-11-21" />
 	<publisher value="IHE"/>
 	<contact> 
 		<name value="IHE"/> 
@@ -343,6 +343,14 @@ The actual list of codes is intended to be extensible.
 	</concept>
 	<!-- HL7 -->
 	<concept>
+		<!-- replaced by https://terminology.hl7.org/builds/current/site/CodeSystem-hl7-document-format-codes.html -->
+		<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-replacedby">
+			<valueCoding>
+				<system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
+				<code value="urn:hl7-org:sdwg:ccda-structuredBody:1.1"/>
+			</valueCoding>
+		</extension>
+
 		<code value="urn:hl7-org:sdwg:ccda-structuredBody:1.1"/>
 		<display value="For documents following C-CDA 1.1 constraints using a structured body."/>
 		<property>
@@ -351,6 +359,13 @@ The actual list of codes is intended to be extensible.
 		</property>
 	</concept>
 	<concept>
+		<!-- replaced by https://terminology.hl7.org/builds/current/site/CodeSystem-hl7-document-format-codes.html -->
+		<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-replacedby">
+			<valueCoding>
+				<system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
+				<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:1.1"/>
+			</valueCoding>
+		</extension>
 		<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:1.1"/>
 		<display value="For documents following C-CDA 1.1 constraints using a non structured body."/>
 		<property>
@@ -359,6 +374,14 @@ The actual list of codes is intended to be extensible.
 		</property>
 	</concept>
 	<concept>
+		<!-- replaced by https://terminology.hl7.org/builds/current/site/CodeSystem-hl7-document-format-codes.html -->
+		<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-replacedby">
+			<valueCoding>
+				<system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
+				<code value="urn:hl7-org:sdwg:ccda-structuredBody:2.1"/>
+			</valueCoding>
+		</extension>
+
 		<code value="urn:hl7-org:sdwg:ccda-structuredBody:2.1"/>
 		<display value="For documents following C-CDA 2.1 constraints using a structured body."/>
 		<property>
@@ -367,6 +390,13 @@ The actual list of codes is intended to be extensible.
 		</property>
 	</concept>
 	<concept>
+		<!-- replaced by https://terminology.hl7.org/builds/current/site/CodeSystem-hl7-document-format-codes.html -->
+		<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-replacedby">
+			<valueCoding>
+				<system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
+				<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:2.1"/>
+			</valueCoding>
+		</extension>
 		<code value="urn:hl7-org:sdwg:ccda-nonXMLBody:2.1"/>
 		<display value="For documents following C-CDA 2.1 constraints using a non structured body."/>
 		<property>
@@ -374,5 +404,5 @@ The actual list of codes is intended to be extensible.
 			<valueCode value="deprecated"/>
 		</property>
 	</concept>
-    
+
 </CodeSystem>

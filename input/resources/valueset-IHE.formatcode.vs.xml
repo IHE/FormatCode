@@ -39,7 +39,7 @@
 	<!-- must include using the FHIR defined URL, not the .identifier OID
       <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
 	  -->
-	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/IHE.formatcode.cs"/>
+	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/IHE.formatcode.codesystem"/>
     </include>
 <!-- bring this in when Grahame fixes IG build or vocabulary	
 	<include>

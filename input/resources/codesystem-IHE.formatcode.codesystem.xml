@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="IHE.formatcode.cs" />
+	<id value="IHE.formatcode.codesystem" />
 	<!-- removed text so this codeSystem will render in the IG
 	<text>
 		<status value="additional" />
@@ -16,13 +16,13 @@ The actual list of codes is intended to be extensible.
 		</div>
 	</text>
 -->
-	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/IHE.formatcode.cs"/>
+	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/IHE.formatcode.codesystem"/>
 	<identifier>
 		<system value="urn:ietf:rfc:3986"/>
 		<value value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
 	</identifier>
 
-	<name value="IHE_FormatCode_cs"/>
+	<name value="IHE_FormatCode_codesystem"/>
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>

@@ -4,7 +4,7 @@
 	<text>
 		<status value="additional" />
 		<div xmlns="http://www.w3.org/1999/xhtml">
-ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes">IHE Format Code</a> vocabulary. 
+ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes">IHE Format Code</a> vocabulary.
 		</div>
 	</text>
 	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />

@@ -39,10 +39,8 @@
 	  -->
 	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
     </include>
-<!-- bring this in when Grahame fixes IG build or vocabulary	
 	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
 	</include>
-	-->
   </compose>
 </ValueSet>

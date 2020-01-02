@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-    <id value="ihe.formatcode.fhir" />
+	<id value="ihe.formatcode.fhir" />
 	<text>
 		<status value="additional" />
 		<div xmlns="http://www.w3.org/1999/xhtml">
@@ -32,35 +32,38 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	<copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" />
 	<packageId value="ihe.formatcode.fhir" />
 	<fhirVersion value="4.0.1" />
-	
-	 <definition>
-    <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <nameUrl value="toc.html"/>
-      <title value="Table of Contents"/>
-      <generation value="html"/>
-      <page>
-        <nameUrl value="index.html"/>
-        <title value="FormatCode Home Page"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="changes.html"/>
-        <title value="IG Change History"/>
-        <generation value="html"/>
-      </page>
-    </page>
-  </definition>
+	<dependsOn>
+		<uri value="http://terminology.hl7.org"/>
+		<version value="current"/>
+	</dependsOn>
+	<definition>
+		<page>
+			<!-- The root will always be toc.html - the template will force it if you don't do it -->
+			<nameUrl value="toc.html"/>
+			<title value="Table of Contents"/>
+			<generation value="html"/>
+			<page>
+				<nameUrl value="index.html"/>
+				<title value="FormatCode Home Page"/>
+				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="background.html"/>
+				<title value="Background"/>
+				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="downloads.html"/>
+				<title value="Useful Downloads"/>
+				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="changes.html"/>
+				<title value="IG Change History"/>
+				<generation value="html"/>
+			</page>
+		</page>
+	</definition>
 
 
 </ImplementationGuide>

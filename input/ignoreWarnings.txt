@@ -1,2 +1,2 @@
-// Add warning and/or information messages here after you've confirmed that they aren't really a problem
-// (And include comments like this justifying why)
+# The following code systems are external and not supported by terminology server
+Error from server: Unable to provide support for code system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode

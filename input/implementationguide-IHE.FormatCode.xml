@@ -38,7 +38,7 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	<packageId value="ihe.formatcode.fhir" />
 	<fhirVersion value="4.0.1" />
 	<dependsOn>
-		<uri value="http://terminology.hl7.org"/>
+		<uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
 		<version value="current"/>
 	</dependsOn>
 	<definition>

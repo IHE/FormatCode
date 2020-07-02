@@ -59,7 +59,7 @@ The actual list of codes is intended to be extensible.
 		<type value="boolean" />
 	</property>
 	<property>
-		<code value="CDA-Template" />
+		<code value="comment" />
 		<uri value="http://ihe.net/fhir/blah#CDA-Template"/> 
 		<description value="CDA Template to use" />
 		<type value="string" />
@@ -179,7 +179,7 @@ The actual list of codes is intended to be extensible.
 			<display value="PCC PCS-CS"/>
 			<definition value="Paramedicine Care Summary - Clinical Subset (PCS-CS)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.29.1" />
 			</property>
 		</concept>
@@ -188,7 +188,7 @@ The actual list of codes is intended to be extensible.
 			<display value="PCC PCS-CR"/>
 			<definition value="Paramedicine Care Summary - Complete Report (PCS-CR)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.30.1" />
 			</property>
 		</concept>
@@ -197,7 +197,7 @@ The actual list of codes is intended to be extensible.
 			<display value="PCC IPS"/>
 			<definition value="International Patient Summary (IPS)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="2.16.840.1.113883.10.22.1.1"/>
 <!--				Note: The template ID is taken from the HL7 IPS and this document is a version of HL7’s CDA International Patient Summary. This is an HL7 template that builds on the 2018 HL7 IPS and a collaborative document that reflects the updated items that will be harmonized. -->
 			</property>	
@@ -468,7 +468,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH CRD"/>
 			<definition value="Clinical Research Document (CRD)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.10" />
 			</property>
 		</concept>
@@ -477,7 +477,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH DSC"/>
 			<definition value="Drug Safety Content (DSC)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.11" />
 			</property>
 		</concept>
@@ -486,7 +486,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH MCH"/>
 			<definition value="Mother and Child Health (MCH)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.13" />
 			</property>
 		</concept>
@@ -495,7 +495,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH HBS"/>
 			<definition value="Health Birth Summary (HBS)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.13.1" />
 			</property>
 		</concept>
@@ -504,7 +504,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH PRPH-Ca"/>
 			<definition value="Physician Reporting to a Public Health Repository - Cancer Registry (PRPH-Ca)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.14" />
 			</property>
 		</concept>
@@ -513,7 +513,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH EHCP"/>
 			<definition value="Early Hearing Care Plan (EHCP)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.15" />
 			</property>
 		</concept>
@@ -522,7 +522,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH QMD-EH"/>
 			<definition value="Quality Measure Definition - Early Hearing (QMD-EH)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.17" />
 			</property>
 		</concept>
@@ -531,7 +531,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH QME-EH"/>
 			<definition value="Quality Measure Execution - Early Hearing (QME-EH)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.18" />
 			</property>
 		</concept>
@@ -540,7 +540,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH BFDR"/>
 			<definition value="Birth and Fetal Death Report (BFDR)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19" />
 			</property>
 		</concept>
@@ -549,7 +549,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH CRPC"/>
 			<definition value="Clinical Research Process Content (CRPC)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.21" />
 			</property>
 		</concept>
@@ -558,7 +558,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH HW"/>
 			<definition value="Healthy Weight (HW)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.24.1" />
 			</property>
 		</concept>
@@ -567,7 +567,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH EHDI"/>
 			<definition value="Early Hearing Detection Intervention (EHDI)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.26" />
 			</property>
 		</concept>
@@ -576,7 +576,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH FP"/>
 			<definition value="Family Planning (FP)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.27" />
 			</property>
 			<!-- TODO		deprecated use fp:2017 -->
@@ -586,7 +586,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH FP V2"/>
 			<definition value="Family Planning (FP V2)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.27.1" />
 			</property>
 			<!-- TODO		deprecated the use of fp:2014 -->
@@ -596,7 +596,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH EHDI-WD"/>
 			<definition value="Early Hearing Detection and Intervention – Workflow Document (EHDI-WD)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.28" />
 			</property>
 		</concept>
@@ -605,7 +605,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH ADX"/>
 			<definition value="Aggregate Data Exchange (ADX)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.29" />
 			</property>
 		</concept>
@@ -614,7 +614,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH PRQ"/>
 			<definition value="Prescription Repository Query (PRQ)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.30" />
 			</property>
 		</concept>
@@ -624,7 +624,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH RPE"/>
 			<definition value="Retrieve Process for Execution (RPE)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.12" />
 			</property>
 		</concept>
@@ -633,7 +633,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH NANI"/>
 			<definition value="Newborn Admission Notification Information (NANI)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.20" />
 			</property>
 		</concept>
@@ -643,7 +643,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH RM"/>
 			<definition value="Research Matching (RM)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.25" />
 			</property>
 		</concept>
@@ -652,7 +652,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH LDS-VR"/>
 			<definition value="Birth and Fetal Death Reporting - LDS-VR" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.1.1" />
 			</property>
 		</concept>
@@ -661,7 +661,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH BFDR Birth CDA document"/>
 			<definition value="BFDR Birth CDA document" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.2" />
 			</property>
 		</concept>
@@ -670,7 +670,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH BFDR Death CDA document"/>
 			<definition value="BFDR Death CDA document" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.3" />
 			</property>
 		</concept>
@@ -679,7 +679,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH VRDR"/>
 			<definition value="Vital Records Death Reporting (VRDR)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.23.1" />
 			</property>
 		</concept>
@@ -688,7 +688,7 @@ The actual list of codes is intended to be extensible.
 			<display value="QRPH MS-VRDR"/>
 			<definition value="Medical Summary for VRDR Pre-pop (VRDR)" />
 			<property>
-				<code value="CDA-Template"/>
+				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.23.2" />
 			</property>
 		</concept>

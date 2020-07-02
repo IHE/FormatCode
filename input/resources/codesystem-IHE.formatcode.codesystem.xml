@@ -60,8 +60,7 @@ The actual list of codes is intended to be extensible.
 	</property>
 	<property>
 		<code value="comment" />
-		<uri value="http://ihe.net/fhir/blah#CDA-Template"/> 
-		<description value="CDA Template to use" />
+		<uri value="http://hl7.org/fhir/concept-properties#comment"/> 
 		<type value="string" />
 	</property>
 	<!-- PCC -->

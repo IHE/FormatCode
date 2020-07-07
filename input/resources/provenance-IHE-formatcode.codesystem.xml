@@ -1,104 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- record a Provenance history entry for each revision of FormatCodes -->
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="history-IHE-formatcode.codesystem"/>
-  <type value="collection"/>
-  <!-- includes Provenance record for each revision of the IHE FormatCodes -->
-  <entry xmlns="http://hl7.org/fhir">
-    <fullUrl value="http://ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703"/>
-    <resource>
-      <Provenance>
-        <id value="formatcode-provenance-20200703"/>
-        <target>
-          <reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
-          <type value="CodeSystem"/>
-        </target>
-        <occurredPeriod>
-          <end value="2020-07-03"/>
-        </occurredPeriod>
-        <recorded value="2020-07-03T13:00:00.0000Z"/>
-        <reason>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <code value="METAMGT"/>
-          </coding>
-          <text value="align all display on the profile acronym, with name of profile in definition."/>
-        </reason>
-        <activity>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
-            <code value="UPDATE"/>
-          </coding>
-        </activity>
-        <agent>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
-              <code value="author"/>
-            </coding>
-          </type>
-          <who>
-            <display value="John Moehrke"/>
-          </who>
-        </agent>
-        <agent>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
-              <code value="custodian"/>
-            </coding>
-          </type>
-          <who>
-            <display value="IHE IT-Infrastructure Domain"/>
-          </who>
-        </agent>
-      </Provenance>
-      <Provenance>
-        <id value="formatcode-provenance-20200701"/>
-        <target>
-          <reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
-          <type value="CodeSystem"/>
-        </target>
-        <occurredPeriod>
-          <end value="2020-07-01"/>
-        </occurredPeriod>
-        <recorded value="2020-07-01T23:00:00.0000Z"/>
-        <reason>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
-            <code value="METAMGT"/>
-          </coding>
-          <text value="Regular maintenance for 2020, and inclusion of QRPH codes. Added Ontology to structure according to IHE domains."/>
-        </reason>
-        <activity>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
-            <code value="UPDATE"/>
-          </coding>
-        </activity>
-        <agent>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
-              <code value="author"/>
-            </coding>
-          </type>
-          <who>
-            <display value="John Moehrke"/>
-          </who>
-        </agent>
-        <agent>
-          <type>
-            <coding>
-              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
-              <code value="custodian"/>
-            </coding>
-          </type>
-          <who>
-            <display value="IHE IT-Infrastructure Domain"/>
-          </who>
-        </agent>
-      </Provenance>
-    </resource>
-  </entry>
- </Bundle> 
+	<id value="history-IHE-formatcode.codesystem"/>
+	<type value="collection"/>
+	<!-- includes Provenance record for each revision of the IHE FormatCodes -->
+	<entry xmlns="http://hl7.org/fhir">
+		<fullUrl value="http://ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703"/>
+		<resource>
+			<Provenance>
+				<id value="formatcode-provenance-20200703"/>
+				<target>
+					<reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+					<type value="CodeSystem"/>
+				</target>
+				<occurredPeriod>
+					<end value="2020-07-03"/>
+				</occurredPeriod>
+				<recorded value="2020-07-03T13:00:00.0000Z"/>
+				<reason>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+						<code value="METAMGT"/>
+					</coding>
+					<text value="align all display on the profile acronym, with name of profile in definition."/>
+				</reason>
+				<activity>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
+						<code value="UPDATE"/>
+					</coding>
+				</activity>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="author"/>
+						</coding>
+					</type>
+					<who>
+						<display value="John Moehrke"/>
+					</who>
+				</agent>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="custodian"/>
+						</coding>
+					</type>
+					<who>
+						<display value="IHE IT-Infrastructure Domain"/>
+					</who>
+				</agent>
+			</Provenance>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="http://ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703-1"/>
+		<resource>
+			<Provenance>
+				<id value="formatcode-provenance-20200701"/>
+				<target>
+					<reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+					<type value="CodeSystem"/>
+				</target>
+				<occurredPeriod>
+					<end value="2020-07-01"/>
+				</occurredPeriod>
+				<recorded value="2020-07-01T23:00:00.0000Z"/>
+				<reason>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+						<code value="METAMGT"/>
+					</coding>
+					<text value="Regular maintenance for 2020, and inclusion of QRPH codes. Added Ontology to structure according to IHE domains."/>
+				</reason>
+				<activity>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
+						<code value="UPDATE"/>
+					</coding>
+				</activity>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="author"/>
+						</coding>
+					</type>
+					<who>
+						<display value="John Moehrke"/>
+					</who>
+				</agent>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="custodian"/>
+						</coding>
+					</type>
+					<who>
+						<display value="IHE IT-Infrastructure Domain"/>
+					</who>
+				</agent>
+			</Provenance>
+		</resource>
+	</entry>
+</Bundle> 

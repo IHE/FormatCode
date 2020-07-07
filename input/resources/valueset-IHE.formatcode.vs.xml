@@ -39,9 +39,11 @@
 	  -->
 	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
     </include>
-	<include>
 	<!-- These codes are now defined by HL7, so import them from there https://build.fhir.org/ig/HL7/UTG/CodeSystem-hl7-document-format-codes.html -->
+	<!--
+	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
 	</include>
+-->
   </compose>
 </ValueSet>

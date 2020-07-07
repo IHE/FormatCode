@@ -2,8 +2,8 @@
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li><a href="background.html">Background</a></li>
-  <li><a href="formatcode.html">Codes</a></li>
-  <li><a href="valueset-formatcode.html">ValueSet</a></li>
+  <li><a href="CodeSystem-formatcode.html">Codes</a></li>
+  <li><a href="ValueSet-formatcode.html">ValueSet</a></li>
   <li><a href="artifacts.html">Artifact Index</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">

@@ -13,6 +13,7 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	</extension>
 -->	
 	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+	<version value="0.1.0" />
 	<name value="IHE_FORMATCODE" />
 	<status value="active" />
 	<experimental value="false" />
@@ -68,6 +69,16 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 				<generation value="html"/>
 			</page>
 		</page>
+		<!-- copyright year is a mandatory parameter -->
+		<parameter>
+		  <code value="copyrightyear"/>
+		  <value value="2019+"/>
+		</parameter>
+		<!-- releaselabel should be the ballot status for HL7-published IGs. -->
+		<parameter>
+		  <code value="releaselabel"/>
+		  <value value="CI Build"/>
+		</parameter>
 	</definition>
 
 

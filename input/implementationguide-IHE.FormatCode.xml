@@ -38,12 +38,10 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	<copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" />
 	<packageId value="ihe.formatcode.fhir" />
 	<fhirVersion value="4.0.1" />
-	<!-- TODO put this in if we need to import HL7 codes
 	<dependsOn id="hl7_terminology">
-		<uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+		<uri value="http://terminology.hl7.org/"/>
 		<version value="current"/>
 	</dependsOn>
-	-->
 	<definition>
 		<resource>
 			<reference>

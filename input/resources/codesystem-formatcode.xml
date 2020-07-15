@@ -43,14 +43,16 @@ The actual list of codes is intended to be extensible.
 		</telecom>
 	</contact>
 
-	<description value="The IHE FormatCode code set is defined to be the set of FormatCode(s) define by IHE http://wiki.ihe.net/index.php?title=IHE_Format_Codes. This code set additionally includes, as deprecated, format codes defined by the HL7 CDA http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS. The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient information to allow any potential document consumer to know if it can process and/or display by identifying a document encoding, structure and template. The actual list of codes is intended to be extensible."/>
-	<copyright value="Some content from IHE® Copyright © 2015 [http://www.ihe.net/Governance/#Intellectual_Property](IHE International, Inc). This content is from the IHE Technical Frameworks and Supplements, available for free download and use at http://www.ihe.net/Technical_Frameworks/"/>
+	<description value="The [IHE](http://www.ihe.net) FormatCode code set is defined to be the set of [FormatCode(s) define by IHE] (http://wiki.ihe.net/index.php?title=IHE_Format_Codes), for use with [Document Sharing](https://wiki.ihe.net/index.php/Category:DocShare). This code set additionally includes, as deprecated, format codes defined by [HL7 for some Implementation Guides](http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS). The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode tends to reference the IHE Content Profile (Implementation Guide) that defines the use-case and constraints. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient metadata information to allow any potential document content consumer to know if it can process and/or display by identifying a document encoding, structure and template. The set of codes is intended to be extensible."/>
+	<copyright value="Some content from IHE® Copyright © 2015 [http://www.ihe.net/Governance/#Intellectual_Property](IHE International, Inc)."/>
 	<caseSensitive value="true"/> 
 	<content value="complete"/> 
+
 	<property>
 		<code value="status"/>
 		<type value="code"/>
 		<uri value="http://hl7.org/fhir/concept-properties#status"/>
+		<description value="A property that indicates the status of the concept. Used to indicate Deprecated and Retired terms." />
 	</property>
 	<property>
 		<code value="notSelectable" />
@@ -62,13 +64,16 @@ The actual list of codes is intended to be extensible.
 		<code value="comment" />
 		<uri value="http://hl7.org/fhir/concept-properties#comment"/> 
 		<type value="string" />
+		<description value="Indicates the CDA-Template to use with the given formatCode, when CDA mime-type is used." />
 	</property>
+	<!-- could define our own property as we are actually including the cda-template ID as a comment, it is really not a comment
 	<property>
 		<code value="CDA-Template" />
 		<uri value="http://ihe.net/fhir/formatcode#CDA-Template"/> 
 		<description value="Indicates the CDA-Template to use with the given formatCode, when CDA mime-type is used."/> 
 		<type value="string" />
 	</property>
+	-->
 	<!-- PCC -->
 	<concept>
 		<code value="urn:ihe:pcc" />

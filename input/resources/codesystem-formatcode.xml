@@ -44,10 +44,14 @@ The actual list of codes is intended to be extensible.
 	</contact>
 
 	<description value="The [IHE](http://www.ihe.net) FormatCode code set is defined to be the set of [FormatCode(s) define by IHE] (http://wiki.ihe.net/index.php?title=IHE_Format_Codes), for use with [Document Sharing](https://wiki.ihe.net/index.php/Category:DocShare). This code set additionally includes, as deprecated, format codes defined by [HL7 for some Implementation Guides](http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS). The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode tends to reference the IHE Content Profile (Implementation Guide) that defines the use-case and constraints. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient metadata information to allow any potential document content consumer to know if it can process and/or display by identifying a document encoding, structure and template. The set of codes is intended to be extensible."/>
-	<copyright value="Some content from IHE® Copyright © 2015 [http://www.ihe.net/Governance/#Intellectual_Property](IHE International, Inc)."/>
+	<copyright value="Some content from IHE® Copyright © 2015 [IHE International, Inc](http://www.ihe.net/Governance/#Intellectual_Property)."/>
 	<caseSensitive value="true"/> 
 	<content value="complete"/> 
-
+	<filter>
+		<code value="notSelectable" />
+		<operator value="=" />
+		<value value="false" />
+	</filter>
 	<property>
 		<code value="status"/>
 		<type value="code"/>

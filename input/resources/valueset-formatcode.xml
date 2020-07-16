@@ -40,8 +40,8 @@
 	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
 		<filter>
 			<property value="notSelectable" />
-			<op value="not-in" />
-			<value value="true" />
+			<op value="=" />
+			<value value="false" />
 		</filter>
 	</include>
 

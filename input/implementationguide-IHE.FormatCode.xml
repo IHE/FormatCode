@@ -15,6 +15,7 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
 	<version value="0.2.0" />
 	<name value="IHE_FORMATCODE" />
+	<title value="IHE FormatCode Vocablary" />
 	<status value="active" />
 	<experimental value="false" />
 	<date value="2019-10-07" />
@@ -33,15 +34,17 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 			<value value="JohnMoehrke@gmail.com" />
 		</telecom>
 	</contact>
-	<description value="Implementation Guide for IHE defined FormatCode vocabulary https://wiki.ihe.net/index.php/IHE_Format_Codes ." />
+	<description value="Implementation Guide for IHE defined FormatCode vocabulary." />
 
 	<copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" />
 	<packageId value="ihe.formatcode.fhir" />
 	<fhirVersion value="4.0.1" />
+	<!-- TODO add this when the CDA formatCodes are added to the HL7 vocabulary
 	<dependsOn id="hl7_terminology">
 		<uri value="http://terminology.hl7.org/"/>
 		<version value="current"/>
 	</dependsOn>
+	-->
 	<definition>
 		<resource>
 			<reference>

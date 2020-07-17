@@ -78,16 +78,6 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 				<title value="Background"/>
 				<generation value="html"/>
 			</page>
-			<page>
-				<nameUrl value="downloads.html"/>
-				<title value="Useful Downloads"/>
-				<generation value="html"/>
-			</page>
-			<page>
-				<nameUrl value="changes.html"/>
-				<title value="IG Change History"/>
-				<generation value="html"/>
-			</page>
 		</page>
 		<!-- copyright year is a mandatory parameter -->
 		<parameter>

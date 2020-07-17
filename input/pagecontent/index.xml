@@ -19,6 +19,17 @@
     <li><a href="background.html">Background</a> - provides more detail on what a FormatCode is and how they are maintained</li>
 	<li><a href="CodeSystem-formatcode.html">The IHE defined Codes</a> - the definition of the codes defined by IHE for use in FormatCode</li>
 	<li><a href="ValueSet-formatcode.html">The IHE defined ValueSet</a> - the valueset of codes for FormatCode use.</li>
-    <li><a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information</li>
   </ul>
+ 
+<p>  
+You can also download:
+<ul>
+<li><a href="full-ig.zip">this entire guide</a></li> 
+<li>the FormatCode CodeSystem and ValueSet in <a href="definitions.json.zip">json</a>, or <a href="definitions.xml.zip">xml</a></li>
+</ul>
+</p>
+<p>
+The source code for this Implementation Guide can be found on <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for FormatCode</a>
+</p>
+
 </div>

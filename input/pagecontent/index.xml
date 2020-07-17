@@ -8,7 +8,7 @@
 	<a name="technical"> </a>
 	<h3>Technical Overview</h3>
 	<p>
-	FormatCode is a metadata element for identifying the technical format that a document follows. This is related to mime-type, but is more specific to the content requirements than the encoding requirement. Therefore a document following a FormatCode may have many mime-type encodings. The FormatCode is also related to the document type (e.g. LOINC document type), but is more specific to the requirements (constraints) of the content.
+	FormatCode is a metadata element for identifying the technical format that a document follows. This is related to mimeType, but is more specific to the content requirements than the encoding requirement. Therefore a document following a FormatCode may have many mimeType encodings. The FormatCode is also related to the document type (e.g. LOINC document type), but is more specific to the requirements (constraints) of the content.
 
   </p>
   <a name="walkthrough"> </a>
@@ -21,15 +21,15 @@
 	<li><a href="ValueSet-formatcode.html">The IHE defined ValueSet</a> - the valueset of codes for FormatCode use.</li>
   </ul>
  
-<p>  
-You can also download:
-<ul>
-<li><a href="full-ig.zip">this entire guide</a></li> 
-<li>the FormatCode CodeSystem and ValueSet in <a href="definitions.json.zip">json</a>, or <a href="definitions.xml.zip">xml</a></li>
-</ul>
-</p>
-<p>
-The source code for this Implementation Guide can be found on <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for FormatCode</a>
-</p>
+	<p>  
+	You can also download:
+	<ul>
+	<li><a href="full-ig.zip">this entire guide</a></li> 
+	<li>the FormatCode CodeSystem and ValueSet in <a href="definitions.json.zip">json</a>, or <a href="definitions.xml.zip">xml</a></li>
+	</ul>
+	</p>
+	<p>
+	The source code for this Implementation Guide can be found on <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for FormatCode</a>
+	</p>
 
 </div>

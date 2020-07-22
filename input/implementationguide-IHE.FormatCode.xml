@@ -13,12 +13,12 @@ ImplementationGuide for  <a href="https://wiki.ihe.net/index.php/IHE_Format_Code
 	</extension>
 -->	
 	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-	<version value="0.2.0" />
+	<version value="0.2.1" />
 	<name value="IHE_FORMATCODE" />
-	<title value="IHE FormatCode Vocablary" />
+	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />
 	<experimental value="false" />
-	<date value="2019-10-07" />
+	<date value="2020-22-07" />
 	<publisher value="Integrating the Healthcare Enterprise (IHE)" />
 	<contact>
 		<name value="IHE" />

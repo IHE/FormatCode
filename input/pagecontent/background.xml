@@ -24,4 +24,6 @@ As of December 2019, IHE and HL7 have worked together to transition the HL7 defi
 <a href="https://build.fhir.org/ig/HL7/UTG/index.html">HL7 CodeSystem</a> 
 <code>http://terminology.hl7.org/CodeSystem/hl7-document-format-codes</code>
 </p>
+<p>
+IHE co-chairs must follow the instructions for submitting change to the IHE FormatCode vocabulary as documented on the <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for this FormatCode implementation guide</a>.</p>
 </div>

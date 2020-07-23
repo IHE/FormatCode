@@ -1,7 +1,7 @@
 {
  "package-id" : "ihe.formatcode.fhir",
  "title" : "IHE FormatCode Vocabulary", 
- "canonical" : "http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir", 
+ "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir", 
  "introduction" : "Implementation Guide for IHE defined FormatCode vocabulary.",
  "list" : [{
   "version" : "current",

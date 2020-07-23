@@ -5,12 +5,63 @@
 	<type value="collection"/>
 	<!-- includes Provenance record for each revision of the IHE FormatCodes -->
 	<entry xmlns="http://hl7.org/fhir">
-		<fullUrl value="http://ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703"/>
+		<fullUrl value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200723"/>
+		<resource>
+			<Provenance>
+				<id value="formatcode-provenance-20200723"/>
+				<target>
+					<reference value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+					<type value="CodeSystem"/>
+				</target>
+				<occurredPeriod>
+					<end value="2020-07-23"/>
+				</occurredPeriod>
+				<recorded value="2020-07-23T13:00:00.0000Z"/>
+				<reason>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+						<code value="METAMGT"/>
+					</coding>
+					<text value="QRPH deprecated urn:ihe:qrph:crpc:2012."/>
+				</reason>
+				<activity>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
+						<code value="UPDATE"/>
+					</coding>
+				</activity>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="author"/>
+						</coding>
+					</type>
+					<who>
+						<display value="John Moehrke"/>
+					</who>
+				</agent>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="custodian"/>
+						</coding>
+					</type>
+					<who>
+						<display value="IHE QRPH Domain"/>
+					</who>
+				</agent>
+			</Provenance>
+		</resource>
+	</entry>	
+	<entry xmlns="http://hl7.org/fhir">
+		<fullUrl value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703"/>
 		<resource>
 			<Provenance>
 				<id value="formatcode-provenance-20200703"/>
 				<target>
-					<reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+					<reference value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
 					<type value="CodeSystem"/>
 				</target>
 				<occurredPeriod>
@@ -56,12 +107,12 @@
 		</resource>
 	</entry>
 	<entry>
-		<fullUrl value="http://ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703-1"/>
+		<fullUrl value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/Provenance/20200703-1"/>
 		<resource>
 			<Provenance>
 				<id value="formatcode-provenance-20200701"/>
 				<target>
-					<reference value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+					<reference value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
 					<type value="CodeSystem"/>
 				</target>
 				<occurredPeriod>

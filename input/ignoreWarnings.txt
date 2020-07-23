@@ -1,7 +1,7 @@
 == Suppressed Messages ==
 
 # The following code systems are external and not supported by terminology server
-Error from server: Unable to provide support for code system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+Error from server: Unable to provide support for code system http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
 
 # The following code system should eventually show up in the terminology server
 Code System URI "http://terminology.hl7.org/CodeSystem/hl7-document-format-codes" is unknown so the code cannot be validated

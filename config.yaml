@@ -1,0 +1,7 @@
+id: ihe.fhir.template#0.0.2
+canonical: http://ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir
+version: 1.0.0
+fhirVersion: 4.0.1
+FSHOnly: true
+name: FormatCode
+status: draft

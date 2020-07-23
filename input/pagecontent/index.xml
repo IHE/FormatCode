@@ -3,33 +3,34 @@
   <a name="intro"> </a>
   <h3>Introduction</h3>
 	<p>
-    This Implementation Guide publishes the IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode
+    This Implementation Guide publishes IHE Common CodingSystem and ValueSet Resources.  It present includes the IHE managed
+    CodeSystem and ValueSet for FormatCode and the CodeSystem for AgeRange.
   </p>
 	<a name="technical"> </a>
 	<h3>Technical Overview</h3>
 	<p>
 	FormatCode is a metadata element for identifying the technical format that a document follows. This is related to mimeType, but is more specific to the content requirements than the encoding requirement. Therefore a document following a FormatCode may have many mimeType encodings. The FormatCode is also related to the document type (e.g. LOINC document type), but is more specific to the requirements (constraints) of the content.
-
   </p>
+  <p>AgeRange is a common coding system for specifying age ranges in content profiles.  It is presently used by the ADX profiles but can be used for other purposes.</p>
   <a name="walkthrough"> </a>
   <p>
     The main sections of this IG are:
   </p>
   <ul>
-    <li><a href="background.html">Background</a> - provides more detail on what a FormatCode is and how they are maintained</li>
+    <li><a href="background.html">FormatCode Background</a> - provides more detail on what a FormatCode is and how they are maintained</li>
 	<li><a href="CodeSystem-formatcode.html">The IHE defined Codes</a> - the definition of the codes defined by IHE for use in FormatCode</li>
 	<li><a href="ValueSet-formatcode.html">The IHE defined ValueSet</a> - the valueset of codes for FormatCode use.</li>
+	<li><a href="CodeSystem-agerange.html">The IHE defined codes for age ranges.</a></li>
   </ul>
- 
-	<p>  
+
+	<p>
 	You can also download:
 	<ul>
-	<li><a href="full-ig.zip">this entire guide</a></li> 
-	<li>the FormatCode CodeSystem and ValueSet in <a href="definitions.json.zip">json</a>, or <a href="definitions.xml.zip">xml</a></li>
+	<li><a href="full-ig.zip">this entire guide</a></li>
+	<li>the IHE CodeSystem and ValueSet resources in <a href="definitions.json.zip">json</a>, or <a href="definitions.xml.zip">xml</a></li>
 	</ul>
 	</p>
 	<p>
 	The source code for this Implementation Guide can be found on <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for FormatCode</a>
 	</p>
-
 </div>

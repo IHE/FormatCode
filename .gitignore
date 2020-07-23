@@ -1,5 +1,11 @@
 /input/images/Thumbs.db
-/input-cache/org.hl7.fhir.publisher.jar
+/input/profiles
+/input/vocabulary
+/input/extensions
+/input/examples
+/input-cache/
 temp
 template
 output
+_updatePublisher2.bat
+

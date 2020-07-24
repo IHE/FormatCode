@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="formatcode" />
-  <url value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ValueSet/formatcode"/>
+  <url value="http://ihe.net/fhir/ihe.formatcode.fhir/ValueSet/formatcode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.3.6.1.4.1.19376.1.2.7.1"/>
@@ -37,16 +37,17 @@
 	<!-- must include using the FHIR defined URL, not the .identifier OID
       <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
 	  -->
-	  <system value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
 	  <!-- note that by default a compose only brings in active codes, so deprecated are automatically not included -->
 
 <!-- TODO: really want to put this in there so that the valueset does not include the ontology items, or other not selectable items
+
 		<filter>
 			<property value="notSelectable" />
 			<op value="=" />
 			<value value="false" />
 		</filter>
--->
+  -->
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there https://build.fhir.org/ig/HL7/UTG/CodeSystem-hl7-document-format-codes.html -->

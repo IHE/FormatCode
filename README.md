@@ -3,7 +3,7 @@ IG to manage the FormatCode vocabulary
 
 continuous build available at http://build.fhir.org/ig/IHE/FormatCode/branches/master/index.html
 
-formal canonical URI http://profiles.ihe.net/fhir/iti.formatcode.fhir
+formal canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
 
 formal publication URL http://profiles.ihe.net/fhir/iti.formatcode.fhir/index.html
 
@@ -18,24 +18,28 @@ Acceptable Changes:
 
 1. The committee that is requesting the change must hve formal governance approval for the change. 
 2. The committee designated author (anyone with the authority of the committee) will prepare a GIT "Pull-Request"
-  a. Edit the codesystem-formatcode.xml to add your new concepts
-  b. Edit the codesystem-formatcode.xml date to the date of your edit
-  c. Edit the provenance-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the can
+  a. Edit the codesystem-formatcode.xml 
+    * to add your new concepts, within your domain group
+    * update .date to the date of your edit
+  c. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the can
     * Indicate the dates of the change
-    * Indicate the reason for the change  
+    * Indicate the reason for the change, be specific but keep to a sentence. might include CP number if you want.  
     * Indicate who the committee designated author is
     * Indicate what domain is the custodian of that code	
   d. Edit the implementationguide-IHE.FormatCode.xml to update the date of this change, and version increment
   
   If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Librian of the FormatCode IG.
   
-  # TODO
-* formal approval of this publication system (IG vs the wiki)
+# TODO
 * publish on IHE http://profiles.ihe.net/ITI/FormatCode 
 * register this IG with fhir IG registry
 * register this vocabulary with fhir terminology
+* update the IHE wiki page to indicate the change of policy
+* update the IHE wiki where other pages point at the FormatCode wiki page (such as on the XDS profile page)
+* get canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
 
 # DONE
+* formal approval from IHE to publish July 24, 2020
 * Should I add to the concepts that moved to HL7 the extension replacedBy
 * use IHE template -- which does work locally, but not available yet on the HL7 build machine
 * Define codeSystem and valueSet with original IHE OIDs but place them into THIS IG, not MHD as they are broader than MHD

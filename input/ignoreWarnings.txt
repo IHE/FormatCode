@@ -1,7 +1,11 @@
 == Suppressed Messages ==
 
 # The following code systems are external and not supported by terminology server
-Error from server: Unable to provide support for code system http://profiles.ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+Error from server: Unable to provide support for code system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
 
 # The following code system should eventually show up in the terminology server
 Code System URI "http://terminology.hl7.org/CodeSystem/hl7-document-format-codes" is unknown so the code cannot be validated
+
+# The valueset tries to import from dicom the SOP id for KOS which is identified as the FormatCode for XDS-I. But I get a warning from the IG build tool
+#The code 1.2.840.10008.5.1.4.1.1.88.59 is not valid in the system http://dicom.nema.org/resources/ontology/DCM
+# no need for this ignoreWarning as this warning causes the build to fail to expand, so I removed this from the ValueSet

@@ -26,10 +26,10 @@ ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes
 		</telecom>
 	</contact>
 	<contact>
-		<name value="John Moehrke" />
+		<name value="IHE Secretary" />
 		<telecom>
 			<system value="email" />
-			<value value="JohnMoehrke@gmail.com" />
+			<value value="secretary@ihe.net" />
 		</telecom>
 	</contact>
 	<description value="Implementation Guide for IHE defined FormatCode vocabulary." />
@@ -97,7 +97,7 @@ ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes
 			<code value="releaselabel"/>
 			<value value="CI Build"/>
 		</parameter>
-<!-- not needign autoload as I explicitly include exactly what I want in the IG 
+<!-- not needing autoload as I explicitly include exactly what I want in the IG 
 		<parameter>
 			<code value="autoload-resources" />
 			<value value="true" />

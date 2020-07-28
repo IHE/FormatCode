@@ -36,10 +36,10 @@ The actual list of codes is intended to be extensible.
 		</telecom> 
 	</contact> 
 	<contact>
-		<name value="John Moehrke" />
+		<name value="IHE Secretary" />
 		<telecom>
 			<system value="email" />
-			<value value="JohnMoehrke@gmail.com" />
+			<value value="secretary@ihe.net" />
 		</telecom>
 	</contact>
 

@@ -21,10 +21,10 @@
 		</telecom> 
 	</contact> 
 	<contact>
-		<name value="John Moehrke" />
+		<name value="IHE Secretary" />
 		<telecom>
 			<system value="email" />
-			<value value="JohnMoehrke@gmail.com" />
+			<value value="secretary@ihe.net" />
 		</telecom>
 	</contact>
 
@@ -47,18 +47,18 @@
 			<op value="=" />
 			<value value="false" />
 		</filter>
-  -->
+ -->
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there https://build.fhir.org/ig/HL7/UTG/CodeSystem-hl7-document-format-codes.html -->
-	<!--
+	<!-- TODO: can't include these until HL7 publishes them
 	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
 	</include>
 -->
 
 <!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.  -->
-<!-- but the build tool complains and refuses to do any valueSet expansion (TODO fix at some point)
+<!-- TODO: but the build tool complains and refuses to do any valueSet expansion (TODO fix at some point)
 	<include>
 		<system value="http://dicom.nema.org/resources/ontology/DCM" />
 		<concept>

@@ -40,25 +40,24 @@
 	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
 	  <!-- note that by default a compose only brings in active codes, so deprecated are automatically not included -->
 
-<!-- TODO: really want to put this in there so that the valueset does not include the ontology items, or other not selectable items
-
+		<!-- Filter out the nonSelectable ontologies that are just representing the domains, and are not useable as FormatCode -->
 		<filter>
 			<property value="notSelectable" />
 			<op value="=" />
 			<value value="false" />
 		</filter>
- -->
+
 	</include>
 
-	<!-- These codes are now defined by HL7, so import them from there https://build.fhir.org/ig/HL7/UTG/CodeSystem-hl7-document-format-codes.html -->
-	<!-- TODO: can't include these until HL7 publishes them
+	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/hl7-document-format-codes -->
+<!-- TODO: can't include these until HL7 publishes them
+
 	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
 	</include>
 -->
 
 <!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.  -->
-<!-- TODO: but the build tool complains and refuses to do any valueSet expansion (TODO fix at some point)
 	<include>
 		<system value="http://dicom.nema.org/resources/ontology/DCM" />
 		<concept>
@@ -66,7 +65,6 @@
 			<display value="Key Object Selection Document" />
 		</concept>
 	</include>
--->
   </compose>
   
 

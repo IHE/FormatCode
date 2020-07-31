@@ -1,8 +1,5 @@
 == Suppressed Messages ==
 
-# This is the IHE FormatCode code system, but is not HL7 so build warns that it can't support. 
-Error from server: Unable to provide support for code system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
-
 # The following code system should eventually show up in the terminology server
 Code System URI "http://terminology.hl7.org/CodeSystem/hl7-document-format-codes" is unknown so the code cannot be validated
 

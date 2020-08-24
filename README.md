@@ -5,7 +5,7 @@ continuous build available at http://build.fhir.org/ig/IHE/FormatCode/branches/m
 
 formal canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
 
-formal publication URL http://profiles.ihe.net/fhir/iti.formatcode.fhir/index.html
+formal publication URL http://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
 
 # Instructions to IHE authors on requesting changes to the FormatCode vocabulary
 With the publication of the IHE FormatCode Implementation Guide (this content), the formal management of the IHE authored FormatCode vocabulary has moved. The previous wiki page is no longer formal, and will be retired.

@@ -28,15 +28,11 @@ Acceptable Changes:
     * Indicate what domain is the custodian of that code	
   d. Edit the implementationguide-IHE.FormatCode.xml to update the date of this change, and version increment
   
-  If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Librian of the FormatCode IG.
+  If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Liberian of the FormatCode IG.
   
 # TODO
-* publish on IHE http://profiles.ihe.net/ITI/FormatCode 
-* register this IG with fhir IG registry
-* register this vocabulary with fhir terminology
-* update the IHE wiki page to indicate the change of policy
-* update the IHE wiki where other pages point at the FormatCode wiki page (such as on the XDS profile page)
-* get canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
+* register this IG with fhir IG registry -- has been done, but pull request not accepted https://github.com/FHIR/ig-registry/pull/31
+* register this vocabulary with fhir terminology -- not clear how to do that
 
 # DONE
 * formal approval from IHE to publish July 24, 2020
@@ -45,3 +41,8 @@ Acceptable Changes:
 * Define codeSystem and valueSet with original IHE OIDs but place them into THIS IG, not MHD as they are broader than MHD
 * Get all domain FormatCodes included
 * Include as comment the CDA template associated with the FormatCode
+* publish on IHE http://profiles.ihe.net/ITI/FormatCode 
+* get canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
+* update the IHE wiki page to indicate the change of policy
+* update the IHE wiki where other pages point at the FormatCode wiki page (such as on the XDS profile page)
+* Added in to the ValueSet the codeSystem from HL7 with their codes

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- record a Provenance history entry for each revision of FormatCodes -->
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="history-IHE-formatcode.valueset"/>
+	<type value="collection"/>
+	<!-- includes Provenance record for each revision of the IHE FormatCode ValueSet-->
+	<entry xmlns="http://hl7.org/fhir">
+		<fullUrl value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/Provenance/20201028"/>
+		<resource>
+			<Provenance>
+				<id value="formatcode-provenance-20201028"/>
+				<target>
+					<reference value="http://ihe.net/fhir/ihe.formatcode.fhir/ValueSet/formatcode"/>
+					<type value="ValueSet"/>
+				</target>
+				<occurredPeriod>
+					<end value="2020-10-28"/>
+				</occurredPeriod>
+				<recorded value="2020-10-28T13:00:00.0000Z"/>
+				<reason>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+						<code value="METAMGT"/>
+					</coding>
+					<text value="Add the include for the HL7 managed FormatCode vocabulary."/>
+				</reason>
+				<activity>
+					<coding>
+						<system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
+						<code value="UPDATE"/>
+					</coding>
+				</activity>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="author"/>
+						</coding>
+					</type>
+					<who>
+						<display value="John Moehrke"/>
+					</who>
+				</agent>
+				<agent>
+					<type>
+						<coding>
+							<system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+							<code value="custodian"/>
+						</coding>
+					</type>
+					<who>
+						<display value="IHE ITI Domain"/>
+					</who>
+				</agent>
+			</Provenance>
+		</resource>
+	</entry>	
+</Bundle> 

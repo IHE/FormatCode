@@ -50,12 +50,12 @@
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/hl7-document-format-codes -->
-<!-- TODO: can't include these until HL7 publishes them
+<!-- TODO: can't include these until HL7 publishes them -->
 
 	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
 	</include>
--->
+<!-- -->
 
 <!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.  -->
 	<include>

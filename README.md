@@ -8,6 +8,7 @@ formal canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatco
 formal publication URL http://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
 
 # Instructions to IHE authors on requesting changes to the FormatCode vocabulary
+
 With the publication of the IHE FormatCode Implementation Guide (this content), the formal management of the IHE authored FormatCode vocabulary has moved. The previous wiki page is no longer formal, and will be retired.
 
 Acceptable Changes:
@@ -15,6 +16,8 @@ Acceptable Changes:
 * Update of a code description
   * note that once a code has been used it must go through the proper code lifecycle. If a committee needs a code changed, this is accomplished by deprecating the old one and creating a new one
 * Deprecating a code
+
+## Submission Process
 
 1. The committee that is requesting the change must hve formal governance approval for the change. 
 2. Create an Issue identifying the need for the change
@@ -33,9 +36,11 @@ Acceptable Changes:
 If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Liberian of the FormatCode IG.
   
 # TODO
+
 * register this vocabulary with fhir terminology -- John is working with HTA
 
 # DONE
+
 * formal approval from IHE to publish July 24, 2020
 * Should I add to the concepts that moved to HL7 the extension replacedBy
 * use IHE template -- which does work locally, but not available yet on the HL7 build machine

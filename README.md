@@ -19,18 +19,18 @@ Acceptable Changes:
 1. The committee that is requesting the change must hve formal governance approval for the change. 
 2. Create an Issue identifying the need for the change
 3. The committee designated author (anyone with the authority of the committee) will prepare a GIT "Pull-Request"
-  a. Edit the codesystem-formatcode.xml 
-    * to add your new concepts, within your domain group
-    * update .date to the date of your edit
-  b. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change
-    * Indicate the dates of the change
-    * Indicate the reason for the change, be specific but keep to a sentence. might include CP number if you want.  
-    * Indicate who the committee designated author is
-    * Indicate what domain is the custodian of that code	
-  c. Edit the implementationguide-IHE.FormatCode.xml to update the date of this change, and version increment
-4. Create a Pull-Request with your changes and indicate that it closes your new Issue.
+4.  Edit the codesystem-formatcode.xml 
+  * to add your new concepts, within your domain group
+  * update .date to the date of your edit
+5. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change
+  * Indicate the dates of the change
+  * Indicate the reason for the change, be specific but keep to a sentence. might include CP number if you want.  
+  * Indicate who the committee designated author is
+  * Indicate what domain is the custodian of that code	
+6. Edit the implementationguide-IHE.FormatCode.xml to update the date of this change, and version increment
+7. Create a Pull-Request with your changes and indicate that it closes your new Issue.
   
-  If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Liberian of the FormatCode IG.
+If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Liberian of the FormatCode IG.
   
 # TODO
 * register this vocabulary with fhir terminology -- John is working with HTA

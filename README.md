@@ -3,7 +3,7 @@ IG to manage the FormatCode vocabulary
 
 continuous build available at http://build.fhir.org/ig/IHE/FormatCode/branches/master/index.html
 
-formal canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+formal canonical URI `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode`
 
 formal publication URL http://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
 
@@ -48,7 +48,7 @@ If you have any problems, or need assistance contact JohnMoehrke@gmail.com or th
 * Get all domain FormatCodes included
 * Include as comment the CDA template associated with the FormatCode
 * publish on IHE http://profiles.ihe.net/ITI/FormatCode 
-* get canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
+* get canonical URI `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode` redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
 * update the IHE wiki page to indicate the change of policy
 * update the IHE wiki where other pages point at the FormatCode wiki page (such as on the XDS profile page)
 * Added in to the ValueSet the codeSystem from HL7 with their codes

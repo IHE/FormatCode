@@ -43,7 +43,7 @@ The actual list of codes is intended to be extensible.
 		</telecom>
 	</contact>
 
-	<description value="The [IHE](http://www.ihe.net) FormatCode code system with cannical URI of http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode is defined to be the set of [FormatCode(s) define by IHE] (http://wiki.ihe.net/index.php?title=IHE_Format_Codes), for use with [Document Sharing](https://wiki.ihe.net/index.php/Category:DocShare). This code set additionally includes, as deprecated, format codes defined by [HL7 for some Implementation Guides](http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS). The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode tends to reference the IHE Content Profile (Implementation Guide) that defines the use-case and constraints. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient metadata information to allow any potential document content consumer to know if it can process and/or display by identifying a document encoding, structure and template. The set of codes is intended to be extensible."/>
+	<description value="The [IHE](http://www.ihe.net) FormatCode code system with canonical URI of http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode is defined to be the set of [FormatCode(s) define by IHE] (http://wiki.ihe.net/index.php?title=IHE_Format_Codes), for use with [Document Sharing](https://wiki.ihe.net/index.php/Category:DocShare). This code set additionally includes, as deprecated, format codes defined by [HL7 for some Implementation Guides](http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS). The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode tends to reference the IHE Content Profile (Implementation Guide) that defines the use-case and constraints. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient metadata information to allow any potential document content consumer to know if it can process and/or display by identifying a document encoding, structure and template. The set of codes is intended to be extensible."/>
 	<copyright value="Some content from IHE® Copyright © 2015 [IHE International, Inc](http://www.ihe.net/Governance/#Intellectual_Property)."/>
 	<caseSensitive value="true"/> 
 	<content value="complete"/> 
@@ -284,6 +284,16 @@ The actual list of codes is intended to be extensible.
 				<valueString value="2.16.840.1.113883.10.22.1.1"/>
 <!--				Note: The template ID is taken from the HL7 IPS and this document is a version of HL7’s CDA International Patient Summary. This is an HL7 template that builds on the 2018 HL7 IPS and a collaborative document that reflects the updated items that will be harmonized. -->
 			</property>	
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:OMG:O19:2017"/>
+			<display value="PCC 360X HL7v2 OMG^O19"/>
+			<definition value="HL7v2 OMG^O19 message used for 360X referral request" />
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:OSU:O51:2017"/>
+			<display value="PCC 360X HL7v2 OSU^O51"/>
+			<definition value="HL7v2 OSU^O51 message used for 360X referral status" />
 		</concept>
 	</concept>
 	<!--IT Infrastructure-->

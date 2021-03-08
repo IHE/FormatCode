@@ -287,13 +287,33 @@ The actual list of codes is intended to be extensible.
 		</concept>
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:OMG:O19:2017"/>
-			<display value="PCC 360X HL7v2 OMG^O19"/>
+			<display value="PCC 360X Referral Request"/>
 			<definition value="HL7v2 OMG^O19 message used for 360X referral request" />
 		</concept>
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:OSU:O51:2017"/>
-			<display value="PCC 360X HL7v2 OSU^O51"/>
+			<display value="PCC 360X Referral Status Update"/>
 			<definition value="HL7v2 OSU^O51 message used for 360X referral status" />
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:SIU:S12:2017"/>
+			<display value="PCC 360X Appointment Notification"/>
+			<definition value="HL7v2 SIU^S12 message used for 360X appointment notification" />
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:SIU:S13:2017"/>
+			<display value="PCC 360X Appointment Reschedule Notification"/>
+			<definition value="HL7v2 SIU^S13 message used for 360X appointment reschedule notification" />
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:SIU:S15:2017"/>
+			<display value="PCC 360X Appointment Cancel Notification"/>
+			<definition value="HL7v2 SIU^S15 message used for 360X appointment cancel notification" />
+		</concept>
+		<concept>
+			<code value="urn:ihe:pcc:360x:hl7:SIU:S26:2017"/>
+			<display value="PCC 360X Appointment No-show Notification"/>
+			<definition value="HL7v2 SIU^S26 message used for 360X appointment no-show notification" />
 		</concept>
 	</concept>
 	<!--IT Infrastructure-->

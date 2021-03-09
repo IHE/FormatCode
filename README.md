@@ -34,7 +34,7 @@ Acceptable Changes:
   * Indicate the reason for the change, be specific but keep to a sentence. Might include CP number if you want.  
   * Indicate who the committee designated author is
   * Indicate what domain is the custodian of that code
-6. Edit the implementationguide-IHE.FormatCode.xml to update the Imp[lementationGuide,date of this change, and increment ImplementationGuide.version
+6. Edit the implementationguide-IHE.FormatCode.xml to update the ImplementationGuide.date of this change, and increment ImplementationGuide.version
 7. Create a Pull-Request with the branch containing your changes and indicate that it closes your new Issue.
   
 If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Librarian of the FormatCode IG.

@@ -25,11 +25,11 @@ Acceptable Changes:
 4.  Edit the codesystem-formatcode.xml
   * to add your new concepts, within your domain group
   * update CodeSystem.date to the date of your edit
-5. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change. Within the new Entry:
+5. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change. Within the new entry:
   * Indicate the dates of the change - YYYY, MM, and DD represent the year, month and date of the change (always 4-digit, and 2-digit, respectively)
-      * The fullUrl is of the format "urn:oid:1.3.6.1.4.1.19376.1.2.3.1.YYYYMMDD"
-      * The value of Provenance.id is of the format "formatcode-provenance-YYYYMMDD"
-      * The value of Provenance.occuredPeriod.end is of the format "YYYY-MM-DD"
+      * The fullUrl is in the format "urn:oid:1.3.6.1.4.1.19376.1.2.3.1.YYYYMMDD"
+      * The value of Provenance.id is in the format "formatcode-provenance-YYYYMMDD"
+      * The value of Provenance.occuredPeriod.end is in the format "YYYY-MM-DD"
       * The value of Provenance.recorded is in the format "YYYY-MM-DDT13:00:00.0000Z"
   * Indicate the reason for the change, be specific but keep to a sentence. Might include CP number if you want.  
   * Indicate who the committee designated author is

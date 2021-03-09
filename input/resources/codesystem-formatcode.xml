@@ -26,7 +26,7 @@ The actual list of codes is intended to be extensible.
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2020-07-23" />
+	<date value="2021-03-09" />
 	<publisher value="IHE"/>
 	<contact> 
 		<name value="IHE"/> 

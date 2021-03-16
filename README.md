@@ -3,7 +3,7 @@ IG to manage the FormatCode vocabulary
 
 continuous build available at http://build.fhir.org/ig/IHE/FormatCode/branches/master/index.html
 
-formal canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+formal canonical URI `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode`
 
 formal publication URL http://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
 
@@ -19,21 +19,25 @@ Acceptable Changes:
 
 ## Submission Process
 
-1. The committee that is requesting the change must hve formal governance approval for the change. 
+1. The committee that is requesting the change must have formal governance approval for the change. 
 2. Create an Issue identifying the need for the change
-3. The committee designated author (anyone with the authority of the committee) will prepare a GIT "Pull-Request"
-4.  Edit the codesystem-formatcode.xml 
+3. The committee designated author (anyone with the authority of the committee) will prepare a Github "Pull-Request" by creating a branch. The subsequent steps will occur within your branch.
+4.  Edit the codesystem-formatcode.xml
   * to add your new concepts, within your domain group
-  * update .date to the date of your edit
-5. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change
-  * Indicate the dates of the change
-  * Indicate the reason for the change, be specific but keep to a sentence. might include CP number if you want.  
+  * update CodeSystem.date to the date of your edit
+5. Edit the Bundle-history-IHE-formatcode.codesystem.xml to add a new Provenance record explaining the change. Within the new entry:
+  * Indicate the dates of the change - YYYY, MM, and DD represent the year, month and date of the change (always 4-digit, and 2-digit, respectively)
+      * The fullUrl is in the format "urn:oid:1.3.6.1.4.1.19376.1.2.3.1.YYYYMMDD"
+      * The value of Provenance.id is in the format "formatcode-provenance-YYYYMMDD"
+      * The value of Provenance.occuredPeriod.end is in the format "YYYY-MM-DD"
+      * The value of Provenance.recorded is in the format "YYYY-MM-DDT13:00:00.0000Z"
+  * Indicate the reason for the change, be specific but keep to a sentence. Might include CP number if you want.  
   * Indicate who the committee designated author is
-  * Indicate what domain is the custodian of that code	
-6. Edit the implementationguide-IHE.FormatCode.xml to update the date of this change, and version increment
-7. Create a Pull-Request with your changes and indicate that it closes your new Issue.
+  * Indicate what domain is the custodian of that code
+6. Edit the implementationguide-IHE.FormatCode.xml to update the ImplementationGuide.date of this change, and increment ImplementationGuide.version
+7. Create a Pull-Request with the branch containing your changes and indicate that it closes your new Issue.
   
-If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Liberian of the FormatCode IG.
+If you have any problems, or need assistance contact JohnMoehrke@gmail.com or the assigned Librarian of the FormatCode IG.
   
 # TODO
 
@@ -48,7 +52,7 @@ If you have any problems, or need assistance contact JohnMoehrke@gmail.com or th
 * Get all domain FormatCodes included
 * Include as comment the CDA template associated with the FormatCode
 * publish on IHE http://profiles.ihe.net/ITI/FormatCode 
-* get canonical URI http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
+* get canonical URI `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode` redirected for HTML mime-type to http://profiles.ihe.net/ITI/FormatCode
 * update the IHE wiki page to indicate the change of policy
 * update the IHE wiki where other pages point at the FormatCode wiki page (such as on the XDS profile page)
 * Added in to the ValueSet the codeSystem from HL7 with their codes

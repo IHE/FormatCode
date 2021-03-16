@@ -5,3 +5,17 @@
 
 # The valueset import the XDS-I FormatCode from dicom the SOP id for KOS. But I get a warning from the IG build tool because DICOM does not have this code in their DCM, eventhough XDS-I indicates this is in that code system. 
 The code 1.2.840.10008.5.1.4.1.1.88.59 is not valid in the system http://dicom.nema.org/resources/ontology/DCM
+
+# the Implementation Guide is expected
+Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+
+# There is provenance use for history
+Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
+
+# There is a code system
+Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+
+# There is a valueset
+Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+

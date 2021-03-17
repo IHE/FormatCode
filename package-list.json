@@ -2,19 +2,31 @@
  "package-id" : "ihe.formatcode.fhir",
  "title" : "IHE FormatCode Vocabulary", 
  "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir", 
- "introduction" : "Implementation Guide for IHE defined FormatCode vocabulary.",
+ "introduction" : "## The IHE FormatCode Terminology\r\nThis Implementation Guide the IHE defined FormatCode vocabulary used in Document Sharing.",
  "list" : [{
   "version" : "current",
   "desc" : "Continuous Integration Build (latest in version control)",
-  "path" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+  "path" : "http://build.fhir.org/ig/IHE/FormatCode",
   "status" : "ci-build",
   "current" : true
- },{
-  "version" : "0.1.0",  
-  "date" : "2019-12-31", 
-  "desc" : "Initial workgroup review",   
-  "path" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/201912/index.html",   
-  "status" : "ballot",   
-  "sequence" : "Internal Review"
- }]
+ },
+ {
+  "version" : "0.2.4",  
+  "date" : "2021-03-17", 
+  "desc" : "Second release version with new 360X codes",   
+  "path" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4",   
+  "status" : "release",
+  "fhirversion": "4.0.1",
+  "sequence" : "Publications"
+ },
+ {
+  "version" : "0.2.2",  
+  "date" : "2020-08-14", 
+  "desc" : "Initial release version",   
+  "path" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2",   
+  "status" : "release",
+  "fhirversion": "4.0.1",
+  "sequence" : "Publications"
+ }
+ ]
 }

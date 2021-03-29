@@ -3,6 +3,7 @@
  "title" : "IHE FormatCode Vocabulary", 
  "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir", 
  "introduction" : "## The IHE FormatCode Terminology\r\nThis IHE Implementation Guide defines the IHE FormatCode vocabulary used in Document Sharing.",
+ "category": "EHR Access",
  "list" : [{
   "version" : "current",
   "desc" : "Continuous Integration Build (latest in version control)",

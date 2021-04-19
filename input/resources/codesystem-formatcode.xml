@@ -189,7 +189,7 @@ The actual list of codes is intended to be extensible.
 			<display value="Care Management (CM)"/>
 		</concept>
 		<concept>
-			<code value="urn:ihe:pcc:irc:2008"/>
+			<code value="urn:ihe:pcc:ic:2008"/>
 			<display value="Immunization Registry Content (IRC)"/>
 			<property>
 				<code value="comment"/>
@@ -658,6 +658,14 @@ The actual list of codes is intended to be extensible.
 		<concept>
 			<code value="urn:ihe:pharm:pml:2013"/>
 			<display value="Pharmacy PML"/>
+		</concept>
+		<concept>
+			<code value="urn:ihe:pharm:mtp:2015"/>
+			<display value="Pharmacy MTP"/>
+		</concept>
+		<concept>
+			<code value="urn:ihe:pharm:cma:2017"/>
+			<display value="Pharmacy CMA"/>
 		</concept>
 	</concept>
 	<!-- QRPH -->

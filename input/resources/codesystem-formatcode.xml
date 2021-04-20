@@ -28,13 +28,13 @@ The actual list of codes is intended to be extensible.
 	<experimental value="false"/>
 	<date value="2021-03-09" />
 	<publisher value="IHE"/>
-	<contact>
-		<name value="IHE"/>
-		<telecom>
-			<system value="url"/>
-			<value value="http://ihe.net"/>
-		</telecom>
-	</contact>
+	<contact> 
+		<name value="IHE"/> 
+		<telecom> 
+			<system value="url"/> 
+			<value value="http://ihe.net"/> 
+		</telecom> 
+	</contact> 
 	<contact>
 		<name value="IHE Secretary" />
 		<telecom>
@@ -45,8 +45,8 @@ The actual list of codes is intended to be extensible.
 
 	<description value="The [IHE](http://www.ihe.net) FormatCode code system with canonical URI of http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode is defined to be the set of [FormatCode(s) define by IHE] (http://wiki.ihe.net/index.php?title=IHE_Format_Codes), for use with [Document Sharing](https://wiki.ihe.net/index.php/Category:DocShare). This code set additionally includes, as deprecated, format codes defined by [HL7 for some Implementation Guides](http://wiki.hl7.org/index.php?title=CDA_Format_Codes_for_IHE_XDS). The HL7 codes are now managed by HL7. The set of IHE FormatCode codes was listed in HITSP C80 Table 2-153 Format Code Value Set Definition, but since has been updated. The use of the FormatCode specifies the technical format of the document. The FormatCode tends to reference the IHE Content Profile (Implementation Guide) that defines the use-case and constraints. The FormatCode is a further specialization more detailed than the mime-type. The FormatCode provides sufficient metadata information to allow any potential document content consumer to know if it can process and/or display by identifying a document encoding, structure and template. The set of codes is intended to be extensible."/>
 	<copyright value="Some content from IHE® Copyright © 2015 [IHE International, Inc](http://www.ihe.net/Governance/#Intellectual_Property)."/>
-	<caseSensitive value="true"/>
-	<content value="complete"/>
+	<caseSensitive value="true"/> 
+	<content value="complete"/> 
 	<filter>
 		<code value="notSelectable" />
 		<operator value="=" />
@@ -60,13 +60,13 @@ The actual list of codes is intended to be extensible.
 	</property>
 	<property>
 		<code value="notSelectable" />
-		<uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
-		<description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+		<uri value="http://hl7.org/fhir/concept-properties#notSelectable"/> 
+		<description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/> 
 		<type value="boolean" />
 	</property>
 	<property>
 		<code value="comment" />
-		<uri value="http://hl7.org/fhir/concept-properties#comment"/>
+		<uri value="http://hl7.org/fhir/concept-properties#comment"/> 
 		<type value="string" />
 		<description value="Indicates the CDA-Template to use with the given formatCode, when CDA mime-type is used." />
 	</property>
@@ -282,8 +282,8 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="comment"/>
 				<valueString value="2.16.840.1.113883.10.22.1.1"/>
-				<!--				Note: The template ID is taken from the HL7 IPS and this document is a version of HL7’s CDA International Patient Summary. This is an HL7 template that builds on the 2018 HL7 IPS and a collaborative document that reflects the updated items that will be harmonized. -->
-			</property>
+<!--				Note: The template ID is taken from the HL7 IPS and this document is a version of HL7’s CDA International Patient Summary. This is an HL7 template that builds on the 2018 HL7 IPS and a collaborative document that reflects the updated items that will be harmonized. -->
+			</property>	
 		</concept>
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:OMG:O19:2017"/>
@@ -521,7 +521,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.8.1.1.1" />
 			</property>
 		</concept>
-		<!-- all old ones from 2010 that are not to be recognized as the supplement was updated in 2016 and cleaned
+<!-- all old ones from 2010 that are not to be recognized as the supplement was updated in 2016 and cleaned
 		<concept>
 			<code value="urn:ihe.palm:apsr:all:2010"/>
 			<display value="PALM APSR"/>
@@ -725,7 +725,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.11" />
 			</property>
 		</concept>
-		<!-- not a FormatCode
+<!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:rpe:2009"/>
 			<display value="QRPH RPE"/>
@@ -784,7 +784,7 @@ The actual list of codes is intended to be extensible.
 				<valueCode value="deprecated"/>
 			</property>
 		</concept>
-		<!-- not a FormatCode - and deprecated
+<!-- not a FormatCode - and deprecated
 		<concept>
 			<code value="urn:ihe:qrph:rsp:2009"/>
 			<display value="QRPH RSP"/>
@@ -794,7 +794,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.16" />
 			</property>
 		</concept>
--->
+-->		
 		<concept>
 			<code value="urn:ihe:qrph:qmd-eh:2010"/>
 			<display value="QRPH QMD-EH"/>
@@ -861,7 +861,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.3" />
 			</property>
 		</concept>
-		<!-- not a FormatCode
+<!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:nani:2012"/>
 			<display value="QRPH NANI"/>
@@ -885,7 +885,7 @@ The actual list of codes is intended to be extensible.
 				<valueCode value="deprecated"/>
 			</property>
 		</concept>
-		<!-- not a FormatCode 
+<!-- not a FormatCode 
 		<concept>
 			<code value="urn:ihe:qrph:dex:2013"/>
 			<display value="QRPH DEX"/>
@@ -923,7 +923,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.24.1" />
 			</property>
 		</concept>
-		<!-- not a FormatCode and deprecated
+<!-- not a FormatCode and deprecated
 		<concept>
 			<code value="urn:ihe:qrph:rm:2013"/>
 			<display value="QRPH RM"/>
@@ -1015,7 +1015,7 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.28" />
 			</property>
 		</concept>
-		<!-- not a FormatCode
+<!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:adx:2015"/>
 			<display value="QRPH ADX"/>

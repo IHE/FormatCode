@@ -103,7 +103,7 @@ ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes
 		<!-- releaselabel should be the ballot status for IGs. -->
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="normative"/>
+			<value value="ci-build"/>
 		</parameter>
 <!-- not needing autoload as I explicitly include exactly what I want in the IG 
 		<parameter>

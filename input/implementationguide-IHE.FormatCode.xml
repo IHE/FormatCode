@@ -111,6 +111,10 @@ ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes
 			<value value="true" />
 		</parameter>
 -->		
+		<parameter>
+			<code value="shownav" />
+			<value value="true" />
+		</parameter>
 	</definition>
 
 

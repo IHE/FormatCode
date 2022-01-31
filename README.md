@@ -42,4 +42,3 @@ If you have any problems, or need assistance contact JohnMoehrke@gmail.com or th
 # TODO
 
 * register this vocabulary with fhir terminology -- John is working with HTA
-

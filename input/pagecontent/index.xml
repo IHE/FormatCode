@@ -3,7 +3,7 @@
   <a name="intro"> </a>
   <h3>Introduction</h3>
 	<p>
-    This Implementation Guide publishes the IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode. Given that the FormatCode is contriuted to by many IHE domains, this IG is dedicated to the publication and management of the FormatCode vocabulary.
+    This Implementation Guide publishes the IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode. Given that the FormatCode is contributed to by many IHE domains, this IG is dedicated to the publication and management of the FormatCode vocabulary.
   </p>
 	<a name="technical"> </a>
 	<h3>Technical Overview</h3>

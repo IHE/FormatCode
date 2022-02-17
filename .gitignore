@@ -10,3 +10,8 @@ output
 _updatePublisher2.bat
 /website
 
+/_updatePublisher.sh
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh

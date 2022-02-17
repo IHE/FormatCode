@@ -22,7 +22,7 @@
 						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
 						<code value="METAMGT"/>
 					</coding>
-					<text value="Change change the Display for code urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013. It is currently “RAD XDS-I”, which is too generic. If you followed the pattern used in DENT (DENT TEXT, DENT PDF, DENT CDA), then you would change the code to “RAD CDA” (because RAD TEXT and RAD PDF exist)."/>
+					<text value="Change the Display for code urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013. It is currently “RAD XDS-I”, which is too generic. If you followed the pattern used in DENT (DENT TEXT, DENT PDF, DENT CDA), then you would change the code to “RAD CDA” (because RAD TEXT and RAD PDF exist)."/>
 				</reason>
 				<activity>
 					<coding>

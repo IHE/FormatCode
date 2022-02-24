@@ -74,7 +74,7 @@ The actual list of codes is intended to be extensible.
 	<!-- could define our own property as we are actually including the cda-template ID as a comment, it is really not a comment
 	<property>
 		<code value="CDA-Template" />
-		<uri value="http://profiles.ihe.net/fhir/formatcode#CDA-Template"/> 
+		<uri value="https://profiles.ihe.net/fhir/formatcode#CDA-Template"/> 
 		<description value="Indicates the CDA-Template to use with the given formatCode, when CDA mime-type is used."/> 
 		<type value="string" />
 	</property>

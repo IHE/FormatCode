@@ -11,7 +11,7 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<valueDate value="2022-03-01"/>
 	</extension>
 	<url value="https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-	<version value="1.1.0" />
+	<version value="1.1.1-current" />
 	<name value="IHE_FORMATCODE" />
 	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />

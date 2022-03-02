@@ -4,7 +4,7 @@
 	<text>
 		<status value="additional" />
 		<div xmlns="http://www.w3.org/1999/xhtml">
-ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes">IHE Format Code</a> vocabulary.
+ImplementationGuide for IHE Format Code vocabulary.
 		</div>
 	</text>
 	<extension url="http://hl7.org/fhir/StructureDefinition/resource-approvalDate">
@@ -16,7 +16,7 @@ ImplementationGuide for <a href="https://wiki.ihe.net/index.php/IHE_Format_Codes
 	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />
 	<experimental value="false" />
-	<date value="2022-03-01" />
+<!--	<date value="2022-03-01" /> -->
 	<publisher value="Integrating the Healthcare Enterprise (IHE)" />
 	<contact>
 		<name value="IHE" />

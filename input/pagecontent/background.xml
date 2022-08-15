@@ -15,14 +15,15 @@ Format codes may be specified by multiple organizations. Format codes for Docume
 <p>
 Format codes defined by other IHE domains shall have names with the prefix
 </p>
-<code>urn:ihe:’domain initials’:</code>
+<code>urn:ihe:`domain initials`:</code>
 <p>
-The IHE-managed codes and value set for formatCode are <b>previously</b> published on http://wiki.ihe.net/index.php/IHE_Format_Codes.
-Format codes defined by non-IHE domains should be a valid unique URN.
-</p><p>
-As of December 2019, IHE and HL7 have worked together to transition the HL7 defined codes for C-CDA into the HL7 codesystem management. Thus these codes are now indicated as deprecated in the IHE CodeSystem, as they now exist in 
-<a href="https://build.fhir.org/ig/HL7/UTG/index.html">HL7 CodeSystem</a> 
-<code>http://terminology.hl7.org/CodeSystem/hl7-document-format-codes</code>
+IHE and HL7 have worked together to transition the HL7 defined codes for C-CDA into the HL7 codesystem management. Thus these codes are now indicated as deprecated in the IHE CodeSystem, as they now exist in 
+<a href="https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html">HL7 CodeSystem</a> 
+<code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code>. 
+Note that prior versions of the HL7 CodeSystem were known as <code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code>. 
+</p>
+<p>
+Prior versions of IHE codes were published on the IHE Wiki, and the CodeSystem were known as <code>http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem</code>. This canonical URI was changed due to the fact that it improperly included `ValueSet` in the canonical URI path when it was actually a `CodeSystem`.
 </p>
 <p>
 IHE co-chairs must follow the instructions for submitting change to the IHE FormatCode vocabulary as documented on the <a href="https://github.com/IHE/FormatCode">IHE GitHub repository for this FormatCode implementation guide</a>.</p>

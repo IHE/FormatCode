@@ -49,7 +49,7 @@
 
 	</include>
 
-	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/hl7-document-format-codes -->
+	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->
     <!-- 20220815 - seems HL7 is publishing them now at http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes - their date 2019 -->
 
 	<include>

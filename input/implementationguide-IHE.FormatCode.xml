@@ -87,12 +87,12 @@ ImplementationGuide for IHE Format Code vocabulary.
 			<page>
 				<nameUrl value="index.html"/>
 				<title value="FormatCode Home Page"/>
-				<generation value="html"/>
+				<generation value="markdown"/>
 			</page>
 			<page>
 				<nameUrl value="background.html"/>
 				<title value="Background"/>
-				<generation value="html"/>
+				<generation value="markdown"/>
 			</page>
 		</page>
 		<!-- copyright year is a mandatory parameter -->

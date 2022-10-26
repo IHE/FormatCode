@@ -16,3 +16,6 @@ Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSy
 # There is a valueset
 Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 
+# New html fragment pages that don't add value because FormatCode IG is just vocabulary
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

@@ -115,6 +115,14 @@ ImplementationGuide for IHE Format Code vocabulary.
 			<code value="shownav" />
 			<value value="true" />
 		</parameter>
+		<parameter>
+			<code value="special-url" />
+			<value value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode" />
+		</parameter>
+		<parameter>
+			<code value="special-url" />
+			<value value="http://ihe.net/fhir/ihe.formatcode.fhir/ValueSet/formatcode" />
+		</parameter>
 	</definition>
 
 

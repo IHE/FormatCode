@@ -39,7 +39,7 @@ ImplementationGuide for IHE Format Code vocabulary.
 			<code value="001"/>
 		</coding>
 	</jurisdiction>
-	<copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" />
+<!--	<copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" /> -->
 	<packageId value="ihe.formatcode.fhir" />
 	<license value="CC-BY-4.0"/>
 	<fhirVersion value="4.0.1" />

@@ -749,6 +749,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:hbs:2009"/>
@@ -761,6 +765,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 		<concept>
@@ -783,6 +791,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 <!-- not a FormatCode - and deprecated
@@ -808,6 +820,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:qme-eh:2010"/>
@@ -821,6 +837,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:bfdr:2011"/>
@@ -833,6 +853,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 		<concept>
@@ -884,6 +908,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 <!-- not a FormatCode 
@@ -947,6 +975,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:NHS-Catl-UV:2015"/>
@@ -995,6 +1027,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 		<concept>
@@ -1063,6 +1099,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1078,6 +1118,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 		<concept>
@@ -1096,6 +1140,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
+			</property>
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1111,6 +1159,10 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+			<property>
+				<code value="inactive"/>
+				<valueCode value="true"/>
 			</property>
 		</concept>
 	</concept>

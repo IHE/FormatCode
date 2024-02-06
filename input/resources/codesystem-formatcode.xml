@@ -26,7 +26,7 @@ The actual list of codes is intended to be extensible.
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2022-02-16" />
+	<date value="2024-02-06" />
 	<publisher value="IHE"/>
 	<contact> 
 		<name value="IHE"/> 
@@ -48,11 +48,11 @@ The actual list of codes is intended to be extensible.
 	<caseSensitive value="true"/> 
 	<hierarchyMeaning value="grouped-by"/>
 	<content value="complete"/> 
-	<filter>
+<!--	<filter>
 		<code value="notSelectable" />
-		<operator value="=" />
-		<value value="false" />
-	</filter>
+		<operator value="!=" />
+		<value value="true" />
+	</filter>  -->
 	<property>
 		<code value="status"/>
 		<type value="code"/>
@@ -749,10 +749,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:hbs:2009"/>
@@ -766,10 +766,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:prph:2009"/>
@@ -792,10 +792,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 <!-- not a FormatCode - and deprecated
 		<concept>
@@ -820,10 +820,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:qme-eh:2010"/>
@@ -837,10 +837,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:bfdr:2011"/>
@@ -854,10 +854,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:LDS-VR:2013"/>
@@ -909,10 +909,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 <!-- not a FormatCode 
 		<concept>
@@ -975,10 +975,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:NHS-Catl-UV:2015"/>
@@ -1028,10 +1028,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:fp:2017"/>
@@ -1099,10 +1099,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1119,10 +1119,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1140,10 +1140,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1160,10 +1160,10 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-			<property>
+<!--			<property>
 				<code value="inactive"/>
 				<valueCode value="true"/>
-			</property>
+			</property> -->
 		</concept>
 	</concept>
 </CodeSystem>

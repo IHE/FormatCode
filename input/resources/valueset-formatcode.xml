@@ -41,12 +41,11 @@
 	  <!-- note that by default a compose only brings in active codes, so deprecated are automatically not included -->
 
 		<!-- Filter out the nonSelectable ontologies that are just representing the domains, and are not useable as FormatCode -->
-		<filter>
+<!--		<filter>
 			<property value="notSelectable" />
-			<op value="=" />
-			<value value="false" />
-		</filter>
-
+			<op value="!=" />
+			<value value="true" />
+		</filter> -->
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->

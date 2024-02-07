@@ -41,21 +41,7 @@
 			<value value="active" />
 		</filter> 
 	</include>
-<!--
-    <exclude>
-	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
-		<filter>
-			<property value="notSelectable" />
-			<op value="=" />
-			<value value="true" />
-		</filter> 
-		<filter>
-			<property value="status" />
-			<op value="=" />
-			<value value="deprecated" />
-		</filter> 
-	</exclude>
--->
+
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->
     <!-- 20220815 - seems HL7 is publishing them now at http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes - their date 2019 -->
 

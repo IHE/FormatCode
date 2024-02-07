@@ -22,7 +22,7 @@
 						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
 						<code value="METAMGT"/>
 					</coding>
-					<text value="Change the deprecated to also be inactive=true."/>
+					<text value="Change the non-deprecated to status of active."/>
 				</reason>
 				<activity>
 					<coding>

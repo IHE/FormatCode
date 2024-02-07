@@ -34,20 +34,28 @@
 
   <compose>
     <include>
-	<!-- must include using the FHIR defined URL, not the .identifier OID
-      <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
-	  -->
+	  	<system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+		<filter>
+			<property value="status" />
+			<op value="=" />
+			<value value="active" />
+		</filter> 
+	</include>
+<!--
+    <exclude>
 	  <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
-	  <!-- note that by default a compose only brings in active codes, so deprecated are automatically not included -->
-
-		<!-- Filter out the nonSelectable ontologies that are just representing the domains, and are not useable as FormatCode -->
 		<filter>
 			<property value="notSelectable" />
 			<op value="=" />
-			<value value="false" />
+			<value value="true" />
 		</filter> 
-	</include>
-
+		<filter>
+			<property value="status" />
+			<op value="=" />
+			<value value="deprecated" />
+		</filter> 
+	</exclude>
+-->
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->
     <!-- 20220815 - seems HL7 is publishing them now at http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes - their date 2019 -->
 

@@ -100,7 +100,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.6" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:aps:2007"/>
 			<display value="PCC APS"/>
@@ -109,7 +114,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.11.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:xds-ms:2007"/>
 			<display value="PCC XDS-MS"/>
@@ -122,7 +132,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.4" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:edr:2007"/>
 			<display value="PCC EDR"/>
@@ -131,7 +146,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.10" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:edes:2007"/>
 			<display value="PCC EDES"/>
@@ -152,7 +172,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.13.1.4" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:apr:handp:2008"/>
 			<display value="PCC APR HANDP"/>
@@ -161,7 +186,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.16.1.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:apr:lab:2008"/>
 			<display value="PCC APR LAB"/>
@@ -170,7 +200,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.16.1.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:apr:edu:2008"/>
 			<display value="PCC APR EDU"/>
@@ -179,16 +214,31 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.16.1.3" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:crc:2008"/>
 			<display value="PCC CRC"/>
 			<definition value="Cancer Registry Content (CRC)"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:cm:2008"/>
 			<display value="Care Management (CM)"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ic:2008"/>
 			<display value="Immunization Registry Content (IRC)"/>
@@ -196,59 +246,129 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.18.1.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:tn:2007"/>
 			<display value="PCC TN"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:nn:2007"/>
 			<display value="PCC NN"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ctn:2007"/>
 			<display value="PCC CTN"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:edpn:2007"/>
 			<display value="PCC EDPN"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:hp:2008"/>
 			<display value="PCC HP"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ldhp:2009"/>
 			<display value="PCC LDHP"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:lds:2009"/>
 			<display value="PCC LDS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:mds:2009"/>
 			<display value="PCC MDS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:nds:2010"/>
 			<display value="PCC NDS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ppvs:2010"/>
 			<display value="PCC PPVS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:trs:2011"/>
 			<display value="PCC TRS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ets:2011"/>
 			<display value="PCC ETS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:its:2011"/>
 			<display value="PCC ITS"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ript:2017"/>
 			<display value="PCC RIPT" />
@@ -257,7 +377,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.28.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:pcs-cs:2018"/>
 			<display value="PCC PCS-CS"/>
@@ -266,7 +391,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.29.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:pcs-cr:2018"/>
 			<display value="PCC PCS-CR"/>
@@ -275,7 +405,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.30.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:ips:2020"/>
 			<display value="PCC IPS"/>
@@ -285,37 +420,72 @@ The actual list of codes is intended to be extensible.
 				<valueString value="2.16.840.1.113883.10.22.1.1"/>
 <!--				Note: The template ID is taken from the HL7 IPS and this document is a version of HL7’s CDA International Patient Summary. This is an HL7 template that builds on the 2018 HL7 IPS and a collaborative document that reflects the updated items that will be harmonized. -->
 			</property>	
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:OMG:O19:2017"/>
 			<display value="PCC 360X Referral Request"/>
 			<definition value="HL7v2 OMG^O19 message used for 360X referral request" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:OSU:O51:2017"/>
 			<display value="PCC 360X Referral Status Update"/>
 			<definition value="HL7v2 OSU^O51 message used for 360X referral status" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:SIU:S12:2017"/>
 			<display value="PCC 360X Appointment Notification"/>
 			<definition value="HL7v2 SIU^S12 message used for 360X appointment notification" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:SIU:S13:2017"/>
 			<display value="PCC 360X Appointment Reschedule Notification"/>
 			<definition value="HL7v2 SIU^S13 message used for 360X appointment reschedule notification" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:SIU:S15:2017"/>
 			<display value="PCC 360X Appointment Cancel Notification"/>
 			<definition value="HL7v2 SIU^S15 message used for 360X appointment cancel notification" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pcc:360x:hl7:SIU:S26:2017"/>
 			<display value="PCC 360X Appointment No-show Notification"/>
 			<definition value="HL7v2 SIU^S26 message used for 360X appointment no-show notification" />
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--IT Infrastructure-->
 	<concept>
@@ -334,7 +504,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.7" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:bppc-sd:2007"/>
 			<display value="ITI BPPC-SD"/>
@@ -343,7 +518,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.5.3.1.1.7.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:xds-sd:pdf:2008"/>
 			<display value="ITI XDS-SD PDF"/>
@@ -352,7 +532,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.2.20" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:xds-sd:text:2008"/>
 			<display value="ITI XDS-SD TEXT"/>
@@ -361,32 +546,62 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.2.20" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:xdw:2011:workflowDoc"/>
 			<display value="ITI XDW"/>
 			<definition value="XDW Workflow Document"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:dsg:detached:2014"/>
 			<display value="ITI DSG Detached"/>
 			<definition value="DSG Detached Document"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:dsg:enveloping:2014"/>
 			<display value="ITI DSG Enveloping"/>
 			<definition value="DSG Enveloping Document"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:appc:2016:consent"/>
 			<display value="ITI APPC"/>
 			<definition value="Advanced Patient Privacy Consents"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:iti:xds:2017:mimeTypeSufficient"/>
 			<display value="mimeType Sufficient"/>
 			<definition value="Code to be used when the mimeType is sufficient to understanding the technical format. May be used when no more specific FormatCode is available and the mimeType is sufficient to identify the technical format"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--Laboratory-->
 	<concept>
@@ -405,7 +620,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.3.3" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--Radiology-->
 	<concept>
@@ -420,17 +640,32 @@ The actual list of codes is intended to be extensible.
 			<code value="urn:ihe:rad:TEXT"/>
 			<display value="RAD TEXT"/>
 			<definition value="Radiology XDS-I Text"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:rad:PDF"/>
 			<display value="RAD PDF"/>
 			<definition value="Radiology XDS-I PDF"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013"/>
 			<display value="RAD CDA"/>
 			<definition value="Radiology XDS-I Structured CDA"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--Cardiology-->
 	<concept>
@@ -449,7 +684,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.4.1.1.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:card:CRC:2012"/>
 			<display value="CARD CRC"/>
@@ -458,7 +698,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.4.1.1.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:card:EPRC-IE:2014"/>
 			<display value="CARD EPRC-IE"/>
@@ -467,7 +712,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.4.1.1.3" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:card:CPN:2017"/>
 			<display value="CARD CPN"/>
@@ -476,7 +726,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.4.1.1.4" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--Dental-->
 	<concept>
@@ -491,18 +746,33 @@ The actual list of codes is intended to be extensible.
 			<code value="urn:ihe:dent:TEXT"/>
 			<display value="DENT TEXT"/>
 			<definition value="Dental CDA Wrapped Text Report (DENT)"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:dent:PDF"/>
 			<display value="DENT PDF"/>
 			<definition value="Dental PDF (DENT)"/>
 			<!-- Note PDF/A without CDA Wrapper -->
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013"/>
 			<display value="DENT CDA"/>
 			<definition value="Dental Imaging Report with Structured Headings (DENT)"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!--Anatomic Pathology-->
 	<concept>
@@ -521,118 +791,233 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.8.1.1.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 <!-- all old ones from 2010 that are not to be recognized as the supplement was updated in 2016 and cleaned
 		<concept>
 			<code value="urn:ihe.palm:apsr:all:2010"/>
 			<display value="PALM APSR"/>
 			<definition value="Anatomic Pathology Structured Report All"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:all:2010"/>
 			<display value="PALM APSR Cancer"/>
 			<definition value="Anatomic Pathology Structured Report Cancer All"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:breast:2010"/>
 			<display value="PALM APSR Cancer Breast"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Breast"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:colon:2010"/>
 			<display value="PALM APSR Cancer Colon"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Colon"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:prostate:2010"/>
 			<display value="PALM Cancer Prostate"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Prostate"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:thyroid:2010"/>
 			<display value="PALM APSR Cancer Thyroid"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Thyroid"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:lung:2010"/>
 			<display value="PALM APSR Cancer Lung"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Lung"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:skin:2010"/>
 			<display value="PALM Cancer Skin"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Skin"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:kidney:2010"/>
 			<display value="PALM Cancer Kidney"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Kidney"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:cervix:2010"/>
 			<display value="PALM Cancer Cervix"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Cervix"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:endometrium:2010"/>
 			<display value="PALM Cancer Endometrium"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Endometrium"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:ovary:2010"/>
 			<display value="PALM Cancer Ovary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Ovary"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:esophagus: 2010"/>
 			<display value="PALM Cancer Esophagus"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Esophagus"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:stomach: 2010"/>
 			<display value="PALM Cancer Stomach"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Stomach"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:liver:2010"/>
 			<display value="PALM Cancer Liver"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Liver"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:pancreas: 2010"/>
 			<display value="PALM Cancer Pancreas"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Pancreas"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:testis:2010"/>
 			<display value="PALM Cancer Testis"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Testis"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:urinary_bladder:2010"/>
 			<display value="PALM Cancer Urinary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Urinary Bladder"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:lip_oral_cavity:2010"/>
 			<display value="PALM Cancer Lip"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Lip Oral Cavity"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:pharynx:2010"/>
 			<display value="PALM Cancer Pharynix"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Pharynx"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:salivary_gland:2010"/>
 			<display value="PALM Cancer Salivary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Salivary Gland"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe.palm:apsr:cancer:larynx:2010"/>
 			<display value="PALM Cancer Larynx"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Larynx"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 	</concept>
 	<!--Pharmacy-->
@@ -652,7 +1037,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pharm:padv:2010"/>
 			<display value="Pharmacy PADV"/>
@@ -661,7 +1051,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pharm:dis:2010"/>
 			<display value="Pharmacy DIS"/>
@@ -670,7 +1065,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.3" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<display value="Pharmacy PML"/>
 			<code value="urn:ihe:pharm:pml:2013"/>
@@ -679,7 +1079,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.5" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pharm:mtp:2015"/>
 			<display value="Pharmacy MTP"/>
@@ -688,7 +1093,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.6" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:pharm:cma:2017"/>
 			<display value="Pharmacy CMA"/>
@@ -697,7 +1107,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.9.1.1.4" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 	</concept>
 	<!-- QRPH -->
 	<concept>
@@ -716,7 +1131,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.10" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:dsc:2008"/>
 			<display value="QRPH DSC"/>
@@ -725,7 +1145,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.11" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 <!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:rpe:2009"/>
@@ -735,7 +1160,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.12" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 		<concept>
 			<code value="urn:ihe:qrph:mch:2009"/>
@@ -749,10 +1179,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:hbs:2009"/>
@@ -766,10 +1192,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:prph:2009"/>
@@ -779,7 +1201,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.14" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:ehcp:2010"/>
 			<display value="QRPH EHCP"/>
@@ -792,10 +1219,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 <!-- not a FormatCode - and deprecated
 		<concept>
@@ -806,7 +1229,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.16" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->		
 		<concept>
 			<code value="urn:ihe:qrph:qmd-eh:2010"/>
@@ -820,10 +1248,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:qme-eh:2010"/>
@@ -837,10 +1261,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:bfdr:2011"/>
@@ -854,10 +1274,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:LDS-VR:2013"/>
@@ -867,7 +1283,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.1.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:BFDR-Birth:2014"/>
 			<display value="QRPH BFDR Birth CDA document"/>
@@ -876,7 +1297,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:BFDR-FDeath:2014"/>
 			<display value="QRPH BFDR Death CDA document"/>
@@ -885,7 +1311,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.19.3" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 <!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:nani:2012"/>
@@ -895,7 +1326,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.20" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 		<concept>
 			<code value="urn:ihe:qrph:crpc:2012"/>
@@ -909,10 +1345,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 <!-- not a FormatCode 
 		<concept>
@@ -923,7 +1355,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.22" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 		<concept>
 			<code value="urn:ihe:qrph:vrdr:2013"/>
@@ -933,7 +1370,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.23.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:ms-vrdr:2013"/>
 			<display value="QRPH MS-VRDR"/>
@@ -942,7 +1384,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.23.2" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:hw:2013"/>
 			<display value="QRPH HW"/>
@@ -951,7 +1398,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.24.1" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 <!-- not a FormatCode and deprecated
 		<concept>
 			<code value="urn:ihe:qrph:rm:2013"/>
@@ -961,7 +1413,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.25" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 		<concept>
 			<code value="urn:ihe:qrph:ehdi:2014"/>
@@ -975,10 +1432,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:NHS-Catl-UV:2015"/>
@@ -988,7 +1441,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.26" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:NHS-CatIII-UV:2015"/>
 			<display value="QRPH EHDI NHS Cat III"/>
@@ -997,7 +1455,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.26" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:HPoCUS:2014"/>
 			<display value="QRPH HPoC US"/>
@@ -1006,7 +1469,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.26" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:HPoCUV:2014"/>
 			<display value="QRPH HPoC UV"/>
@@ -1015,7 +1483,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.26" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:fp:2014"/>
 			<display value="QRPH FP"/>
@@ -1028,10 +1501,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<code value="urn:ihe:qrph:fp:2017"/>
@@ -1042,7 +1511,12 @@ The actual list of codes is intended to be extensible.
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.27.1" />
 			</property>
 			<!-- replacement for fp:2014 -->
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 		<concept>
 			<code value="urn:ihe:qrph:ehdiwd:2013"/>
 			<display value="QRPH EHDI-WD"/>
@@ -1051,7 +1525,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.28" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 <!-- not a FormatCode
 		<concept>
 			<code value="urn:ihe:qrph:adx:2015"/>
@@ -1061,7 +1540,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.29" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 -->
 		<concept>
 			<code value="urn:ihe:qrph:prq:2019"/>
@@ -1071,7 +1555,12 @@ The actual list of codes is intended to be extensible.
 				<code value="comment"/>
 				<valueString value="1.3.6.1.4.1.19376.1.7.3.1.1.30" />
 			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
 		</concept>
+
 
 	</concept>
 	<!-- HL7 -->
@@ -1099,10 +1588,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1119,10 +1604,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1140,10 +1621,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
@@ -1160,10 +1637,6 @@ The actual list of codes is intended to be extensible.
 				<code value="status"/>
 				<valueCode value="deprecated"/>
 			</property>
-<!--			<property>
-				<code value="inactive"/>
-				<valueCode value="true"/>
-			</property> -->
 		</concept>
 	</concept>
 </CodeSystem>

@@ -24,3 +24,10 @@ The main sections of this IG are:
 
 {% include dependency-table.xhtml %}
 
+#### IP Statements
+
+{% include ip-statements.xhtml %}
+
+#### Globals
+
+{% include globals-table.xhtml %}

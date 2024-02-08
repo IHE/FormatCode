@@ -1,0 +1,11 @@
+{
+ "package-id" : "ihe.formatcode.fhir",
+ "version" : "1.1.1",
+ "path" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.1",
+ "mode" : "milestone",
+ "status" : "trial-use",
+ "sequence": "Publication",
+ "desc" : "Add status active to active codes."
+}
+
+

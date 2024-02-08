@@ -22,7 +22,7 @@
 						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
 						<code value="METAMGT"/>
 					</coding>
-					<text value="Change the deprecated to also be inactive=true."/>
+					<text value="Add status active to all leaf concepts that are not deprecated."/>
 				</reason>
 				<activity>
 					<coding>

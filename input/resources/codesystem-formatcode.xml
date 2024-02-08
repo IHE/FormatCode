@@ -48,11 +48,6 @@ The actual list of codes is intended to be extensible.
 	<caseSensitive value="true"/> 
 	<hierarchyMeaning value="grouped-by"/>
 	<content value="complete"/> 
-<!--	<filter>
-		<code value="notSelectable" />
-		<operator value="!=" />
-		<value value="true" />
-	</filter>  -->
 	<property>
 		<code value="status"/>
 		<type value="code"/>

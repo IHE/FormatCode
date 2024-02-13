@@ -16,7 +16,7 @@ ImplementationGuide for IHE Format Code vocabulary.
 	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />
 	<experimental value="false" />
-<!--	<date value="2022-03-01" /> -->
+	<date value="2024-02-23" /> 
 	<publisher value="Integrating the Healthcare Enterprise (IHE)" />
 	<contact>
 		<name value="IHE" />

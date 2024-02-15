@@ -103,7 +103,8 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<!-- releaselabel should be the ballot status for IGs. -->
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="normative"/>
+<!--			<value value="normative"/>  -->
+			<value value="ci-build"/>
 		</parameter>
 <!-- not needing autoload as I explicitly include exactly what I want in the IG 
 		<parameter>

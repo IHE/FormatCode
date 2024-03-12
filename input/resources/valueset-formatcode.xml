@@ -33,13 +33,16 @@
     <copyright value="IHE http://www.ihe.net/Governance/#Intellectual_Property" />
 
   <compose>
+	<inactive value="false"/>
     <include>
 	  	<system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
+<!--
 		<filter>
 			<property value="status" />
 			<op value="=" />
 			<value value="active" />
 		</filter> 
+-->
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->

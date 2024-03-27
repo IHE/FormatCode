@@ -26,7 +26,7 @@ The actual list of codes is intended to be extensible.
 	<title value="IHE Format Code set for use with Document Sharing"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<date value="2024-02-06" />
+	<date value="2024-03-27" />
 	<publisher value="IHE"/>
 	<contact> 
 		<name value="IHE"/> 
@@ -74,6 +74,56 @@ The actual list of codes is intended to be extensible.
 		<type value="string" />
 	</property>
 	-->
+	<!-- EYE CARE -->
+	<concept>
+		<code value="urn:ihe:eyecare" />
+		<display value="Eye Care Domain" />
+		<definition value="Ontology group for all Eye Care defined FormatCodes" />
+		<property>
+			<code value="notSelectable" />
+			<valueBoolean value="true" />
+		</property>
+		<concept>
+			<code value="urn:ihe:eyecare:geneyeevalpn:2014"/>
+			<display value="EYECARE GEE"/>
+			<definition value="General Eye Evaluation(GEE) C-CDA Progress Note"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.2" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
+
+		<concept>
+			<code value="urn:ihe:eyecare:geneyeevalcn:2014 "/>
+			<display value="EYECARE GEE"/>
+			<definition value="General Eye Evaluation(GEE) C-CDA Consultation Note"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.3" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
+
+		<concept>
+			<code value="urn:ihe:eyecare:summary:2015"/>
+			<display value="EYECARE EC-SUMMARY"/>
+			<definition value="Eye Care Summary Record (EC-Summary)"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.4" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
 	<!-- PCC -->
 	<concept>
 		<code value="urn:ihe:pcc" />

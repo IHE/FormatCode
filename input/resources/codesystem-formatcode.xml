@@ -1567,6 +1567,10 @@ The actual list of codes is intended to be extensible.
 			<code value="notSelectable" />
 			<valueBoolean value="true" />
 		</property>
+		<property>
+			<code value="status"/>
+			<valueCode value="deprecated"/>
+		</property>
 		<concept>
 			<!-- replaced by https://terminology.hl7.org/CodeSystem-v3-HL7DocumentFormatCodes.html -->
 			<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-replacedby">

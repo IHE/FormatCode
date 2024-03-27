@@ -22,7 +22,7 @@
 						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
 						<code value="METAMGT"/>
 					</coding>
-					<text value="Added three missing Eye Care codes"/>
+					<text value="Added three missing Eye Care codes. GitHub Issue #25."/>
 				</reason>
 				<activity>
 					<coding>
@@ -49,7 +49,7 @@
 						</coding>
 					</type>
 					<who>
-						<display value="IHE Documentation Specialist"/>
+						<display value="IHE Eye Care domain"/>
 					</who>
 				</agent>
 			</Provenance>

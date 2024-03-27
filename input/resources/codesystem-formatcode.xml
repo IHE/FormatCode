@@ -74,57 +74,6 @@ The actual list of codes is intended to be extensible.
 		<type value="string" />
 	</property>
 	-->
-	<!-- EYE CARE -->
-	<concept>
-		<code value="urn:ihe:eyecare" />
-		<display value="Eye Care Domain" />
-		<definition value="Ontology group for all Eye Care defined FormatCodes" />
-		<property>
-			<code value="notSelectable" />
-			<valueBoolean value="true" />
-		</property>
-		<concept>
-			<code value="urn:ihe:eyecare:geneyeevalpn:2014"/>
-			<display value="EYECARE GEE"/>
-			<definition value="General Eye Evaluation(GEE) C-CDA Progress Note"/>
-			<property>
-				<code value="comment"/>
-				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.2" />
-			</property>
-			<property>
-				<code value="status"/>
-				<valueCode value="active"/>
-			</property>
-		</concept>
-
-		<concept>
-			<code value="urn:ihe:eyecare:geneyeevalcn:2014"/>
-			<display value="EYECARE GEE"/>
-			<definition value="General Eye Evaluation(GEE) C-CDA Consultation Note"/>
-			<property>
-				<code value="comment"/>
-				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.3" />
-			</property>
-			<property>
-				<code value="status"/>
-				<valueCode value="active"/>
-			</property>
-		</concept>
-
-		<concept>
-			<code value="urn:ihe:eyecare:summary:2015"/>
-			<display value="EYECARE EC-SUMMARY"/>
-			<definition value="Eye Care Summary Record (EC-Summary)"/>
-			<property>
-				<code value="comment"/>
-				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.4" />
-			</property>
-			<property>
-				<code value="status"/>
-				<valueCode value="active"/>
-			</property>
-		</concept>
-	</concept>
 	<!-- PCC -->
 	<concept>
 		<code value="urn:ihe:pcc" />
@@ -1682,6 +1631,57 @@ The actual list of codes is intended to be extensible.
 			<property>
 				<code value="status"/>
 				<valueCode value="deprecated"/>
+			</property>
+		</concept>
+	</concept>
+	<!-- EYE CARE -->
+	<concept>
+		<code value="urn:ihe:eyecare" />
+		<display value="Eye Care Domain" />
+		<definition value="Ontology group for all Eye Care defined FormatCodes" />
+		<property>
+			<code value="notSelectable" />
+			<valueBoolean value="true" />
+		</property>
+		<concept>
+			<code value="urn:ihe:eyecare:geneyeevalpn:2014"/>
+			<display value="EYECARE GEE"/>
+			<definition value="General Eye Evaluation(GEE) C-CDA Progress Note"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.2" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
+
+		<concept>
+			<code value="urn:ihe:eyecare:geneyeevalcn:2014"/>
+			<display value="EYECARE GEE"/>
+			<definition value="General Eye Evaluation(GEE) C-CDA Consultation Note"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.3" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
+
+		<concept>
+			<code value="urn:ihe:eyecare:summary:2015"/>
+			<display value="EYECARE EC-SUMMARY"/>
+			<definition value="Eye Care Summary Record (EC-Summary)"/>
+			<property>
+				<code value="comment"/>
+				<valueString value="1.3.6.1.4.1.19376.1.12.1.1.4" />
+			</property>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
 			</property>
 		</concept>
 	</concept>

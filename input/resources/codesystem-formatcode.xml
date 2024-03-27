@@ -98,7 +98,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe:eyecare:geneyeevalcn:2014 "/>
+			<code value="urn:ihe:eyecare:geneyeevalcn:2014"/>
 			<display value="EYECARE GEE"/>
 			<definition value="General Eye Evaluation(GEE) C-CDA Consultation Note"/>
 			<property>
@@ -124,6 +124,7 @@ The actual list of codes is intended to be extensible.
 				<valueCode value="active"/>
 			</property>
 		</concept>
+	</concept>
 	<!-- PCC -->
 	<concept>
 		<code value="urn:ihe:pcc" />

@@ -1,6 +1,6 @@
 == Suppressed Messages ==
 
 # The valueset import the XDS-I FormatCode from dicom the SOP id for KOS. But I get a warning from the IG build tool because DICOM does not have this code in their DCM, eventhough XDS-I indicates this is in that code system. 
-WARNING: ValueSet/formatcode: ValueSet.compose.include[2].concept[0]: The code '1.2.840.10008.5.1.4.1.1.88.59' is not valid in the system http://dicom.nema.org/resources/ontology/DCM
+WARNING: ValueSet/formatcode: ValueSet.compose.include[2].concept[0]: The code '1.2.840.10008.5.1.4.1.1.88.59' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code '1.2.840.10008.5.1.4.1.1.88.59' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 INFORMATION: ValueSet/formatcode: ValueSet.compose.include[2].concept[0]: Unknown code '1.2.840.10008.5.1.4.1.1.88.59' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01'
 WARNING: ValueSet/formatcode: ValueSet.compose.include[2]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '01', found versions: 01, 3.0.1

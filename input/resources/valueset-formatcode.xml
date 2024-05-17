@@ -60,6 +60,16 @@
 			<display value="Key Object Selection Document" />
 		</concept>
 	</include>
+
+	<!-- This one concept is used as the FormatCode for sIPS. It is the document definition for sIPS.  -->
+	<include>
+		<system value="urn:ietf:rfc:3986" />
+		<concept>
+			<code value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips" />
+			<display value="IPS (International Patient Summary)" />
+		</concept>
+	</include>
+
   </compose>
   
 

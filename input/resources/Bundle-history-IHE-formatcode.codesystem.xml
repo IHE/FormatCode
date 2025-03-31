@@ -378,7 +378,7 @@
 						<system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
 						<code value="METAMGT"/>
 					</coding>
-					<text value="Remove PAT domain, as PALM is right. Remove 2010 FormatCodes not used in favor of urn:ihe.palm:apsr:2016."/>
+					<text value="Remove PAT domain, as PALM is right. Remove 2010 FormatCodes not used in favor of urn:ihe:palm:apsr:2016."/>
 				</reason>
 				<activity>
 					<coding>

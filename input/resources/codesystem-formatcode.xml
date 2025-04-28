@@ -771,7 +771,7 @@ The actual list of codes is intended to be extensible.
 	</concept>
 	<!--Anatomic Pathology-->
 	<concept>
-		<code value="urn:ihe.palm" />
+		<code value="urn:ihe:palm" />
 		<display value="Pathology Domain" />
 		<definition value="Ontology group for all Pathology defined FormatCodes" />
 		<property>
@@ -779,7 +779,7 @@ The actual list of codes is intended to be extensible.
 			<valueBoolean value="true" />
 		</property>
 		<concept>
-			<code value="urn:ihe.palm:apsr:2016"/>
+			<code value="urn:ihe:palm:apsr:2016"/>
 			<display value="PALM APSR"/>
 			<definition value="Anatomic Pathology Structured Report"/>
 			<property>
@@ -794,7 +794,7 @@ The actual list of codes is intended to be extensible.
 
 <!-- all old ones from 2010 that are not to be recognized as the supplement was updated in 2016 and cleaned
 		<concept>
-			<code value="urn:ihe.palm:apsr:all:2010"/>
+			<code value="urn:ihe:palm:apsr:all:2010"/>
 			<display value="PALM APSR"/>
 			<definition value="Anatomic Pathology Structured Report All"/>
 			<property>
@@ -804,7 +804,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:all:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:all:2010"/>
 			<display value="PALM APSR Cancer"/>
 			<definition value="Anatomic Pathology Structured Report Cancer All"/>
 			<property>
@@ -814,7 +814,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:breast:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:breast:2010"/>
 			<display value="PALM APSR Cancer Breast"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Breast"/>
 			<property>
@@ -824,7 +824,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:colon:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:colon:2010"/>
 			<display value="PALM APSR Cancer Colon"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Colon"/>
 			<property>
@@ -834,7 +834,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:prostate:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:prostate:2010"/>
 			<display value="PALM Cancer Prostate"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Prostate"/>
 			<property>
@@ -844,7 +844,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:thyroid:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:thyroid:2010"/>
 			<display value="PALM APSR Cancer Thyroid"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Thyroid"/>
 			<property>
@@ -854,7 +854,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:lung:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:lung:2010"/>
 			<display value="PALM APSR Cancer Lung"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Lung"/>
 			<property>
@@ -864,7 +864,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:skin:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:skin:2010"/>
 			<display value="PALM Cancer Skin"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Skin"/>
 			<property>
@@ -874,7 +874,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:kidney:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:kidney:2010"/>
 			<display value="PALM Cancer Kidney"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Kidney"/>
 			<property>
@@ -884,7 +884,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:cervix:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:cervix:2010"/>
 			<display value="PALM Cancer Cervix"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Cervix"/>
 			<property>
@@ -894,7 +894,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:endometrium:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:endometrium:2010"/>
 			<display value="PALM Cancer Endometrium"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Endometrium"/>
 			<property>
@@ -904,7 +904,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:ovary:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:ovary:2010"/>
 			<display value="PALM Cancer Ovary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Ovary"/>
 			<property>
@@ -914,7 +914,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:esophagus: 2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:esophagus: 2010"/>
 			<display value="PALM Cancer Esophagus"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Esophagus"/>
 			<property>
@@ -924,7 +924,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:stomach: 2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:stomach: 2010"/>
 			<display value="PALM Cancer Stomach"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Stomach"/>
 			<property>
@@ -934,7 +934,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:liver:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:liver:2010"/>
 			<display value="PALM Cancer Liver"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Liver"/>
 			<property>
@@ -944,7 +944,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:pancreas: 2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:pancreas: 2010"/>
 			<display value="PALM Cancer Pancreas"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Pancreas"/>
 			<property>
@@ -954,7 +954,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:testis:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:testis:2010"/>
 			<display value="PALM Cancer Testis"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Testis"/>
 			<property>
@@ -964,7 +964,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:urinary_bladder:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:urinary_bladder:2010"/>
 			<display value="PALM Cancer Urinary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Urinary Bladder"/>
 			<property>
@@ -974,7 +974,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:lip_oral_cavity:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:lip_oral_cavity:2010"/>
 			<display value="PALM Cancer Lip"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Lip Oral Cavity"/>
 			<property>
@@ -984,7 +984,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:pharynx:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:pharynx:2010"/>
 			<display value="PALM Cancer Pharynix"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Pharynx"/>
 			<property>
@@ -994,7 +994,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:salivary_gland:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:salivary_gland:2010"/>
 			<display value="PALM Cancer Salivary"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Salivary Gland"/>
 			<property>
@@ -1004,7 +1004,7 @@ The actual list of codes is intended to be extensible.
 		</concept>
 
 		<concept>
-			<code value="urn:ihe.palm:apsr:cancer:larynx:2010"/>
+			<code value="urn:ihe:palm:apsr:cancer:larynx:2010"/>
 			<display value="PALM Cancer Larynx"/>
 			<definition value="Anatomic Pathology Structured Report Cancer Larynx"/>
 			<property>

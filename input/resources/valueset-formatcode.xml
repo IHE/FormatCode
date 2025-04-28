@@ -54,7 +54,7 @@
 
 <!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.  -->
 	<include>
-		<system value="http://dicom.nema.org/resources/ontology/DCM" />
+		<system value="http://dicom.nema.org/resources/ontology/DCMUID" />
 		<concept>
 			<code value="1.2.840.10008.5.1.4.1.1.88.59" />
 			<display value="Key Object Selection Document" />

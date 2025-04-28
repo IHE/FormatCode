@@ -13,7 +13,6 @@ The main sections of this IG are:
 ### Download
 
 - [this entire guide](full-ig.zip) 
-- the FormatCode CodeSystem and ValueSet in [json](definitions.json.zip), or [xml](definitions.xml.zip)
 - The source code for this Implementation Guide can be found on [IHE GitHub repository for FormatCode](https://github.com/IHE/FormatCode)
 
 #### Cross Version Analysis

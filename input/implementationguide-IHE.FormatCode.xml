@@ -11,12 +11,12 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<valueDate value="2025-04-28"/>
 	</extension>
 	<url value="https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-	<version value="1.4.1-current" />
+	<version value="1.5.1-current" />
 	<name value="IHE_FORMATCODE" />
 	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />
 	<experimental value="false" />
-<!--	<date value="2024-05-23" />  -->
+    <date value="2026-02-25" /> 
 	<publisher value="Integrating the Healthcare Enterprise (IHE)" />
 	<contact>
 		<name value="IHE" />

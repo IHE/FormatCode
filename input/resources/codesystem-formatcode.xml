@@ -631,6 +631,7 @@ The actual list of codes is intended to be extensible.
 			<code value="notSelectable" />
 			<valueBoolean value="true" />
 		</property>
+
 		<concept>
 			<code value="urn:ihe:rad:TEXT"/>
 			<display value="RAD TEXT"/>
@@ -655,6 +656,16 @@ The actual list of codes is intended to be extensible.
 			<code value="urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013"/>
 			<display value="RAD CDA"/>
 			<definition value="Radiology XDS-I Structured CDA"/>
+			<property>
+				<code value="status"/>
+				<valueCode value="active"/>
+			</property>
+		</concept>
+
+		<concept>
+			<code value="urn:ihe:rad:MADO:fhir-manifest:2026"/>
+			<display value="RAD MADO"/>
+			<definition value="MADO Imaging Study Manifest in FHIR Format"/>
 			<property>
 				<code value="status"/>
 				<valueCode value="active"/>

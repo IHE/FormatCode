@@ -4,3 +4,4 @@
 WARNING: ValueSet/formatcode: ValueSet.compose.include[2].system: URL value 'http://dicom.nema.org/resources/ontology/DCMUID' does not resolve
 WARNING: ValueSet/formatcode: ValueSet.compose.include[2]: Unknown System 'http://dicom.nema.org/resources/ontology/DCMUID' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://dicom.nema.org/resources/ontology/DCMUID' could not be found, so the code cannot be validated)
 WARNING: ValueSet.where(id = 'formatcode'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://dicom.nema.org/resources/ontology/DCMUID
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://dicom.nema.org/resources/ontology/DCMUID' could not be found, so the value set cannot be expanded

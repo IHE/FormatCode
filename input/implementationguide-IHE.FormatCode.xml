@@ -104,7 +104,7 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<parameter>
 			<code value="releaselabel"/>
 			<value value="normative"/>
-<!--			<value value="ci-build"/> --
+<!--			<value value="ci-build"/> -->
 		</parameter>
 <!-- not needing autoload as I explicitly include exactly what I want in the IG 
 		<parameter>

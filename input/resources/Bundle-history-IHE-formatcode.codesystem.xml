@@ -660,7 +660,7 @@
 						</coding>
 					</type>
 					<who>
-						<display value="IHE RAD-Radiology Domain"/>
+						<display value="IHE RAD Domain"/>
 					</who>
 				</agent>
 			</Provenance>

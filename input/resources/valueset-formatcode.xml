@@ -52,9 +52,12 @@
 	  <system value="http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"/>
 	</include>
 
-<!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.  -->
+<!-- This one concept is used as the FormatCode for XDS-I. It is the KOS document definition SOP.
+	     Formerly referenced http://dicom.nema.org/resources/ontology/DCMUID, which is the DICOM RDF/OWL
+	     ontology namespace and not an expandable FHIR CodeSystem. It is now sourced from the locally
+	     defined, computable DICOM UID CodeSystem (see codesystem-dicom-uid.xml) so this ValueSet can expand. -->
 	<include>
-		<system value="http://dicom.nema.org/resources/ontology/DCMUID" />
+		<system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/dicom-uid" />
 		<concept>
 			<code value="1.2.840.10008.5.1.4.1.1.88.59" />
 			<display value="Key Object Selection Document" />

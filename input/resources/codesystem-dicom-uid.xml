@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="dicom-uid" />
+	<url value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/dicom-uid"/>
+	<!-- The DICOM root OID. These codes are DICOM Unique Identifiers as registered in DICOM PS3.6 Table A-1. -->
+	<identifier>
+		<system value="urn:ietf:rfc:3986"/>
+		<value value="urn:oid:1.2.840.10008"/>
+	</identifier>
+	<name value="IHE_DICOM_UID_codesystem"/>
+	<title value="DICOM Unique Identifiers (subset) for use with Document Sharing"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2026-06-09" />
+	<publisher value="IHE"/>
+	<contact>
+		<name value="IHE"/>
+		<telecom>
+			<system value="url"/>
+			<value value="http://ihe.net"/>
+		</telecom>
+	</contact>
+	<contact>
+		<name value="IHE Secretary" />
+		<telecom>
+			<system value="email" />
+			<value value="secretary@ihe.net" />
+		</telecom>
+	</contact>
+	<description value="A computable subset of [DICOM](https://dicom.nema.org) Unique Identifiers (UIDs), as registered in [DICOM PS3.6 Table A-1](https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_A.html). This CodeSystem enumerates only the DICOM UIDs that are referenced by the IHE FormatCode ValueSet, so that the ValueSet can be expanded and validated. It replaces the former, non-expandable reference to the DICOM RDF/OWL ontology namespace `http://dicom.nema.org/resources/ontology/DCMUID`. The code values, keywords and types are aligned with the `dicom-uids` CodeSystem (canonical `http://hl7.org/fhir/uv/dicom-terminology/CodeSystem/dicom-uids`) so that consumers may switch to the full DICOM terminology once it is formally published."/>
+	<copyright value="DICOM® is the registered trademark of the National Electrical Manufacturers Association (NEMA). DICOM Unique Identifiers are defined in DICOM PS3.6."/>
+	<caseSensitive value="true"/>
+	<!-- fragment: this CodeSystem deliberately enumerates only the DICOM UIDs used by the IHE FormatCode ValueSet, not the whole DICOM UID registry. -->
+	<content value="fragment"/>
+	<property>
+		<code value="keyword" />
+		<type value="string" />
+		<description value="The DICOM keyword for the UID, as given in DICOM PS3.6 Table A-1." />
+	</property>
+	<property>
+		<code value="type" />
+		<type value="string" />
+		<description value="The DICOM UID Type (e.g. SOP Class, Transfer Syntax), as given in DICOM PS3.6 Table A-1." />
+	</property>
+	<concept>
+		<code value="1.2.840.10008.5.1.4.1.1.88.59" />
+		<display value="Key Object Selection Document Storage" />
+		<definition value="Key Object Selection Document Storage SOP Class. Used as the FormatCode for the XDS-I Key Object Selection (KOS) document." />
+		<property>
+			<code value="keyword" />
+			<valueString value="KeyObjectSelectionDocumentStorage" />
+		</property>
+		<property>
+			<code value="type" />
+			<valueString value="SOP Class" />
+		</property>
+	</concept>
+</CodeSystem>

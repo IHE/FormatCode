@@ -1,7 +1,6 @@
 == Suppressed Messages ==
 
-# The valueset import the XDS-I FormatCode from dicom the SOP id for KOS. But I get a warning from the IG build tool because DICOM does not have this code in their DCM, eventhough XDS-I indicates this is in that code system. 
-WARNING: ValueSet/formatcode: ValueSet.compose.include[2].system: URL value 'http://dicom.nema.org/resources/ontology/DCMUID' does not resolve
-WARNING: ValueSet/formatcode: ValueSet.compose.include[2]: Unknown System 'http://dicom.nema.org/resources/ontology/DCMUID' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://dicom.nema.org/resources/ontology/DCMUID' could not be found, so the code cannot be validated)
-WARNING: ValueSet.where(id = 'formatcode'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://dicom.nema.org/resources/ontology/DCMUID
-Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://dicom.nema.org/resources/ontology/DCMUID' could not be found, so the value set cannot be expanded
+# The XDS-I KOS FormatCode (DICOM SOP UID 1.2.840.10008.5.1.4.1.1.88.59) is now sourced from the locally
+# defined, computable CodeSystem http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/dicom-uid (see issue #41),
+# replacing the former non-expandable reference to http://dicom.nema.org/resources/ontology/DCMUID. No
+# warning suppression is needed for that concept anymore.

@@ -54,6 +54,14 @@ ImplementationGuide for IHE Format Code vocabulary.
 		</resource>
 		<resource>
 			<reference>
+				<reference value="CodeSystem/dicom-uid"/>
+			</reference>
+			<name value="DICOM UID CodeSystem"/>
+			<description value="A computable subset of DICOM Unique Identifiers (PS3.6 Table A-1) referenced by the FormatCode ValueSet, so the ValueSet can be expanded."/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/formatcode"/>
 			</reference>
 			<name value="FormatCode ValueSet"/>
@@ -123,6 +131,10 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<parameter>
 			<code value="special-url" />
 			<value value="http://ihe.net/fhir/ihe.formatcode.fhir/ValueSet/formatcode" />
+		</parameter>
+		<parameter>
+			<code value="special-url" />
+			<value value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/dicom-uid" />
 		</parameter>
 	</definition>
 

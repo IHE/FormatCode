@@ -11,7 +11,7 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<valueDate value="2026-02-25"/>
 	</extension>
 	<url value="https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-	<version value="1.6.0" />
+	<version value="1.6.1-current" />
 	<name value="IHE_FORMATCODE" />
 	<title value="IHE FormatCode Vocabulary" />
 	<status value="active" />
@@ -103,8 +103,8 @@ ImplementationGuide for IHE Format Code vocabulary.
 		<!-- releaselabel should be the ballot status for IGs. -->
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="normative"/>
-<!--			<value value="ci-build"/> -->
+			<!-- <value value="normative"/> -->
+			<value value="ci-build"/>
 		</parameter>
 <!-- not needing autoload as I explicitly include exactly what I want in the IG 
 		<parameter>

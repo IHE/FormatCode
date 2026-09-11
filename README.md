@@ -1,11 +1,11 @@
 # FormatCode
 IG to manage the FormatCode vocabulary
 
-continuous build available at http://build.fhir.org/ig/IHE/FormatCode/branches/master/index.html
+continuous build available at https://build.fhir.org/ig/IHE/FormatCode/branches/master/index.html
 
-formal canonical URI for the IHE code system `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode`
+formal canonical URI for the IHE code system `https://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode`
 
-formal publication URL http://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
+formal publication URL https://profiles.ihe.net/fhir/ihe.formatcode.fhir/index.html
 
 # Instructions to IHE authors on requesting changes to the FormatCode vocabulary
 
